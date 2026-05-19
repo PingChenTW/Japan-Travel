@@ -1,0 +1,1299 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>大阪母女 5 天 4 夜手機版行程手冊｜Arena 泳裝版｜2026/06/08-06/12</title>
+  <style>
+    :root {
+      --bg:#fff8f4; --paper:#ffffff; --ink:#1f2633; --muted:#657089; --line:#eadfd6;
+      --violet:#7657ff; --pink:#ff7aa8; --peach:#ffd7c2; --mint:#53b9a9; --gold:#ffbd5a;
+      --shadow:0 18px 50px rgba(37,33,60,.13); --radius:24px;
+    }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif; background:linear-gradient(180deg,#fff8f4 0%,#fff 42%,#f7fbff 100%); color:var(--ink); }
+    a { color:inherit; }
+    .hero { position:relative; overflow:hidden; padding:64px 24px 34px; background:
+      radial-gradient(circle at 82% 12%, rgba(255,122,168,.32), transparent 30%),
+      radial-gradient(circle at 18% 8%, rgba(118,87,255,.22), transparent 32%),
+      linear-gradient(135deg,#221b45 0%,#523d91 54%,#ff8eb3 100%); color:white; }
+    .hero:after { content:""; position:absolute; inset:auto -10% -100px auto; width:480px; height:480px; border-radius:50%; background:rgba(255,255,255,.12); }
+    .wrap { max-width:1180px; margin:auto; position:relative; z-index:1; }
+    .badge { display:inline-flex; align-items:center; gap:8px; background:rgba(255,255,255,.16); border:1px solid rgba(255,255,255,.35); padding:8px 14px; border-radius:999px; backdrop-filter:blur(10px); font-weight:700; }
+    h1 { font-size:clamp(34px,7vw,76px); margin:18px 0 10px; line-height:1.02; letter-spacing:-.04em; }
+    .hero p { max-width:860px; font-size:clamp(16px,2vw,20px); line-height:1.85; color:rgba(255,255,255,.9); }
+    .hero-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:14px; margin-top:28px; }
+    .hero-tile { background:rgba(255,255,255,.15); border:1px solid rgba(255,255,255,.24); border-radius:22px; padding:16px; backdrop-filter:blur(10px); min-height:110px; }
+    .hero-tile b { display:block; font-size:13px; color:#ffe5ee; letter-spacing:.04em; margin-bottom:5px; }
+    .hero-tile span { display:block; font-size:20px; font-weight:800; line-height:1.3; }
+    .toolbar { position:sticky; top:0; z-index:20; background:rgba(255,255,255,.92); border-bottom:1px solid var(--line); backdrop-filter:blur(14px); }
+    .tool-inner { max-width:1180px; margin:auto; padding:12px 20px; display:flex; gap:10px; align-items:center; overflow:auto; }
+    .search { flex:1; min-width:230px; display:flex; align-items:center; gap:8px; background:#f7f2ff; border:1px solid #e5dbff; border-radius:999px; padding:9px 14px; }
+    .search input { border:0; outline:0; background:transparent; width:100%; font-size:16px; }
+    .navlink,.toolbtn { white-space:nowrap; border:1px solid var(--line); background:white; border-radius:999px; padding:9px 13px; text-decoration:none; font-weight:700; color:#3b4051; cursor:pointer; }
+    .navlink:hover,.toolbtn:hover { transform:translateY(-1px); box-shadow:0 8px 20px rgba(0,0,0,.08); }
+    main { max-width:1180px; margin:0 auto; padding:28px 20px 80px; }
+    section { scroll-margin-top:86px; margin:34px 0; }
+    .section-head { display:flex; align-items:flex-end; justify-content:space-between; gap:16px; margin-bottom:18px; }
+    h2 { font-size:clamp(26px,4vw,42px); margin:0; letter-spacing:-.03em; }
+    .section-head p { margin:0; color:var(--muted); line-height:1.7; max-width:680px; }
+    .grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:18px; }
+    .grid.two { grid-template-columns:repeat(2,minmax(0,1fr)); }
+    .info-card,.timeline-card { background:var(--paper); border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow); overflow:hidden; }
+    .info-card { padding:20px; }
+    .info-card h3 { margin:0 0 10px; font-size:20px; }
+    .info-card p,.info-card li,.copy li,.note { line-height:1.75; color:#3f475c; }
+    .info-card ul { padding-left:1.2em; margin:8px 0; }
+    .stat { font-size:30px; font-weight:900; color:var(--violet); }
+    .pill { display:inline-block; padding:5px 10px; border-radius:999px; background:#fff2f7; color:#a52355; font-weight:800; font-size:13px; margin:4px 5px 4px 0; }
+    .pill.mint { background:#eefaf8; color:#087869; } .pill.gold { background:#fff7e7; color:#915d00; } .pill.violet { background:#f2eeff; color:#563bd6; }
+    .day { border-radius:32px; padding:22px; background:linear-gradient(180deg,#fff,#fffaf7); border:1px solid var(--line); box-shadow:0 18px 60px rgba(88,72,130,.08); }
+    .day-head { display:grid; grid-template-columns:1.2fr .8fr; gap:18px; margin-bottom:18px; }
+    .day-title { padding:20px; border-radius:26px; background:linear-gradient(135deg,#f7f1ff,#fff6e8); }
+    .day-title .date { color:var(--violet); font-weight:900; letter-spacing:.04em; }
+    .day-title h2 { margin:4px 0 8px; }
+    .day-title p { color:var(--muted); line-height:1.75; margin:0; }
+    .day-summary { display:grid; gap:10px; }
+    .summary-mini { border-radius:22px; padding:13px 15px; background:#fff; border:1px solid var(--line); }
+    .summary-mini b { color:#2f3345; }
+    details.timeline-card { margin:14px 0; }
+    details summary { list-style:none; display:flex; align-items:center; gap:12px; padding:16px 18px; cursor:pointer; }
+    details summary::-webkit-details-marker { display:none; }
+    .time { flex:0 0 auto; min-width:104px; text-align:center; background:#26203f; color:white; padding:8px 10px; border-radius:999px; font-weight:900; }
+    .summary-main { display:flex; flex-direction:column; gap:3px; flex:1; }
+    .summary-main b { font-size:18px; }
+    .summary-main em { font-style:normal; color:var(--muted); font-size:14px; }
+    .chev { color:var(--violet); font-size:13px; font-weight:900; }
+    details[open] .chev { color:var(--pink); }
+    .card-content { display:grid; grid-template-columns:minmax(240px,38%) 1fr; gap:18px; padding:0 18px 18px; }
+    .photo { margin:0; min-height:220px; border-radius:20px; overflow:hidden; background:linear-gradient(135deg,#eee7ff,#fff0f5); position:relative; }
+    .photo img { width:100%; height:100%; min-height:220px; object-fit:cover; display:block; }
+    .photo figcaption { position:absolute; left:10px; right:10px; bottom:10px; background:rgba(0,0,0,.55); color:white; padding:6px 10px; border-radius:999px; font-size:12px; backdrop-filter:blur(8px); }
+    .photo.noimg:before { content:"照片需連網載入；可點下方 Google Maps / 官方頁看最新照片"; display:flex; align-items:center; justify-content:center; min-height:220px; padding:20px; text-align:center; color:#6d6387; font-weight:800; }
+    .copy ul { margin:0; padding-left:1.2em; }
+    .note { border-left:4px solid var(--pink); background:#fff3f8; padding:12px 14px; border-radius:0 14px 14px 0; }
+    .button-row { display:flex; flex-wrap:wrap; gap:8px; margin-top:14px; }
+    .btn { display:inline-flex; align-items:center; gap:6px; text-decoration:none; border-radius:999px; padding:9px 12px; border:1px solid #ddd5ff; background:#f7f3ff; color:#5038c8; font-weight:900; font-size:14px; }
+    .btn.map { border-color:#d7efe9; background:#eefaf8; color:#067769; }
+    .btn.food { border-color:#ffe0bc; background:#fff6e7; color:#955c00; }
+    .alert { border-left:6px solid var(--gold); background:#fff9e9; padding:16px; border-radius:18px; line-height:1.75; }
+    .hp-zone { background:linear-gradient(135deg,#21172e,#452f76 56%,#8b4f9e); color:white; border:0; }
+    .hp-zone h3,.hp-zone p,.hp-zone li { color:white; }
+    .hp-zone .pill { background:rgba(255,255,255,.16); color:#fff; border:1px solid rgba(255,255,255,.25); }
+    .source-list { font-size:13px; color:#626b7f; line-height:1.7; }
+    .phrase { display:flex; align-items:center; justify-content:space-between; gap:10px; background:#f6fbff; border:1px solid #dfefff; border-radius:16px; padding:10px 12px; margin:8px 0; }
+    .phrase code { white-space:normal; font-family:inherit; font-weight:800; color:#26324c; }
+    .phrase button { border:0; background:#293453; color:white; border-radius:999px; padding:7px 10px; cursor:pointer; }
+    .guide-box { background:#f8fbff; border:1px solid #dfefff; border-radius:18px; padding:12px 14px; margin:12px 0; }
+    .guide-box b { color:#27314f; }
+    .store-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; margin:12px 0; }
+    .store-mini { background:#fff; border:1px solid var(--line); border-radius:16px; padding:12px; line-height:1.7; }
+    .store-mini b { color:#2f3345; display:block; margin-bottom:4px; }
+    .store-mini .tagline { display:inline-block; margin-top:6px; padding:3px 8px; border-radius:999px; background:#fff3f8; color:#a13b72; font-size:12px; font-weight:900; }
+    @media (max-width:900px){ .store-grid { grid-template-columns:1fr; } }
+
+    .focus-list { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; margin:12px 0; }
+    .focus-item { background:#fffdf8; border:1px solid #ffe4bd; border-radius:16px; padding:12px; line-height:1.7; }
+    .focus-item b { display:block; color:#6f4300; margin-bottom:4px; }
+    @media (max-width:900px){ .focus-list { grid-template-columns:1fr; } }
+
+    /* Mobile-first front page: day cards first, no long introduction before Day 1 */
+    .phone-home { padding:14px 12px 12px; background:linear-gradient(180deg,#fff7f4 0%,#ffffff 100%); border-bottom:1px solid var(--line); }
+    .phone-kicker { display:flex; align-items:flex-end; justify-content:space-between; gap:10px; margin:0 0 10px; color:#282439; font-weight:950; letter-spacing:-.01em; }
+    .phone-kicker strong { font-size:20px; line-height:1.2; }
+    .trip-date { color:var(--muted); font-size:13px; font-weight:900; white-space:nowrap; }
+    .day-jump-grid { display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:10px; }
+    .day-jump { position:relative; display:flex; flex-direction:column; gap:7px; min-height:132px; padding:15px; text-decoration:none; background:#fff; border:1px solid var(--line); border-radius:22px; box-shadow:0 10px 28px rgba(77,65,108,.10); overflow:hidden; }
+    .day-jump:before { content:""; position:absolute; inset:auto -24px -34px auto; width:90px; height:90px; border-radius:50%; background:rgba(118,87,255,.10); }
+    .day-jump:active { transform:scale(.985); }
+    .day-jump .dnum { display:inline-flex; align-self:flex-start; padding:5px 9px; border-radius:999px; background:var(--violet); color:white; font-size:12px; font-weight:950; line-height:1; }
+    .day-jump strong { position:relative; z-index:1; font-size:18px; line-height:1.25; letter-spacing:-.02em; }
+    .day-jump small { position:relative; z-index:1; color:#626b7f; line-height:1.45; font-weight:650; }
+    .day-jump.d1 .dnum { background:#ff7aa8; }
+    .day-jump.d2 .dnum { background:#ff9e4f; }
+    .day-jump.d3 .dnum { background:#2fae9e; }
+    .day-jump.d4 { background:linear-gradient(135deg,#fff,#f3efff); border-color:#d9d0ff; }
+    .day-jump.d4 .dnum { background:#4c36c7; }
+    .day-jump.d5 .dnum { background:#4d8de8; }
+    .nav-scroll { display:flex; gap:8px; align-items:center; }
+    .mobile-tool { overflow:hidden; }
+    @media (max-width:720px) {
+      body { font-size:15px; background:#fffaf7; }
+      .phone-home { padding:10px 10px 12px; }
+      .phone-kicker { display:block; margin-bottom:8px; }
+      .phone-kicker strong { display:block; font-size:18px; }
+      .trip-date { display:block; margin-top:2px; font-size:12px; }
+      .day-jump-grid { grid-template-columns:1fr; gap:9px; }
+      .day-jump { min-height:0; border-radius:18px; padding:13px 14px; display:grid; grid-template-columns:auto minmax(0,1fr); column-gap:11px; row-gap:4px; align-items:center; }
+      .day-jump .dnum { grid-row:1 / span 2; }
+      .day-jump strong { font-size:17px; }
+      .day-jump small { font-size:13px; }
+      .tool-inner.mobile-tool { display:block; padding:8px 10px; }
+      .tool-inner.mobile-tool .search { width:100%; min-width:0; margin-bottom:7px; padding:8px 12px; }
+      .nav-scroll { overflow-x:auto; -webkit-overflow-scrolling:touch; padding-bottom:2px; scrollbar-width:none; }
+      .nav-scroll::-webkit-scrollbar { display:none; }
+      .navlink,.toolbtn { padding:8px 10px; font-size:13px; }
+      main { padding:12px 10px 72px; }
+      section { margin:18px 0; scroll-margin-top:112px; }
+      .section-head { display:block; margin-bottom:12px; }
+      .section-head p { font-size:14px; line-height:1.6; margin-top:4px; }
+      h2 { font-size:24px; line-height:1.2; }
+      .day { padding:12px; border-radius:22px; margin-top:16px; }
+      .day-head { gap:10px; margin-bottom:10px; }
+      .day-title { padding:14px; border-radius:18px; }
+      .day-title .date { font-size:13px; }
+      .day-title p { font-size:14px; line-height:1.65; }
+      .summary-mini { border-radius:16px; padding:10px 12px; font-size:14px; }
+      details.timeline-card { margin:10px 0; border-radius:18px; }
+      details summary { padding:13px 12px; gap:9px; align-items:flex-start; }
+      .time { min-width:72px; padding:7px 8px; font-size:13px; }
+      .summary-main b { font-size:16px; line-height:1.35; }
+      .summary-main em { font-size:13px; line-height:1.35; }
+      .card-content { gap:12px; padding:0 12px 14px; }
+      .photo { min-height:170px; border-radius:16px; }
+      .photo img { min-height:170px; }
+      .button-row { gap:7px; margin-top:10px; }
+      .btn { padding:8px 10px; font-size:13px; }
+      .info-card { padding:15px; border-radius:18px; }
+      .info-card h3 { font-size:18px; }
+      .store-mini,.focus-item,.guide-box,.alert { border-radius:14px; padding:11px; }
+      .top { width:44px; height:44px; right:12px; bottom:12px; }
+    }
+
+    .small { font-size:13px; color:var(--muted); }
+    .top { position:fixed; right:16px; bottom:16px; z-index:25; width:48px; height:48px; border-radius:50%; border:0; background:#26203f; color:white; font-weight:900; box-shadow:0 12px 34px rgba(0,0,0,.25); cursor:pointer; }
+    .hidden { display:none !important; }
+    @media (max-width:900px) { .hero-grid,.grid,.grid.two,.day-head,.card-content { grid-template-columns:1fr; } .hero { padding-top:42px; } .time { min-width:86px; } .tool-inner { padding:10px 12px; } }
+    @media print { .toolbar,.top,.button-row { display:none; } body { background:white; } .info-card,.timeline-card,.day { box-shadow:none; break-inside:avoid; } .hero { color:#111; background:white; border-bottom:2px solid #ddd; } }
+  </style>
+</head>
+<body>
+
+  <header class="phone-home" id="top">
+    <div class="wrap">
+      <div class="phone-kicker"><strong>大阪母女 5 天 4 夜｜點選日期直接跳行程</strong><span class="trip-date">2026/06/08 - 06/12</span></div>
+      <div class="day-jump-grid" aria-label="每日行程快速入口">
+        <a class="day-jump d1" href="#day1"><span class="dnum">Day 1</span><strong>抵達大阪・心齋橋</strong><small>06/08（一）KIX → 飯店 → BIGSTEP 泳裝 → 道頓堀</small></a>
+        <a class="day-jump d2" href="#day2"><span class="dnum">Day 2</span><strong>大阪城・梅田夜景</strong><small>06/09（二）大阪城 → 大丸13F → Arena → HEP → 空中庭園</small></a>
+        <a class="day-jump d3" href="#day3"><span class="dnum">Day 3</span><strong>海遊館・CityWalk</strong><small>06/10（三）換飯店 → 海遊館 → 天保山 → USJ前夜</small></a>
+        <a class="day-jump d4" href="#day4"><span class="dnum">Day 4</span><strong>USJ 魔法與任天堂</strong><small>06/11（四）哈利波特 → 小小兵 → 超級任天堂世界</small></a>
+        <a class="day-jump d5" href="#day5"><span class="dnum">Day 5</span><strong>海景・機場觀景</strong><small>06/12（五）Rinku Park → KIX Sky View → 21:05 回台</small></a>
+      </div>
+    </div>
+  </header>
+
+  <nav class="toolbar">
+    <div class="tool-inner mobile-tool">
+      <label class="search">🔎 <input id="q" placeholder="搜尋：哈利波特、Rapi:t、心齋橋、廁所、地鐵..." /></label>
+      <div class="nav-scroll" aria-label="快速導覽">
+        <a class="navlink" href="#top">首頁</a>
+        <a class="navlink" href="#day1">D1</a>
+        <a class="navlink" href="#day2">D2</a>
+        <a class="navlink" href="#arena-swimwear">泳裝</a>
+        <a class="navlink" href="#day3">D3</a>
+        <a class="navlink" href="#day4">USJ</a>
+        <a class="navlink" href="#day5">D5</a>
+        <a class="navlink" href="#quick-check">檢查</a>
+        <a class="navlink" href="#transport">交通照</a>
+        <button class="toolbtn" id="openAll">全部收合</button>
+        <button class="toolbtn" onclick="window.print()">列印/PDF</button>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section id="day1" class="day searchable">
+      <div class="day-head">
+        <div class="day-title"><div class="date">Day 1｜06/08（一）</div><h2>抵達大阪，女孩們的潮流初體驗</h2><p>重點是安全抵達、熟悉地鐵、傍晚才進入心齋橋與道頓堀。第一天不要排太滿，讓時差與入境排隊有緩衝。</p></div>
+        <div class="day-summary">
+          <div class="summary-mini"><b>住宿：</b>Hotel Hillarys Shinsaibashi／心齋橋菲拉麗茲酒店</div>
+          <div class="summary-mini"><b>交通主軸：</b>KIX → 南海 Rapi:t → 難波 → 御堂筋線 → 心齋橋</div>
+          <div class="summary-mini"><b>母女亮點：</b>SPORTS ZYUEN / Arena 泳裝、PARCO、道頓堀固力果、和牛燒肉</div>
+        </div>
+      </div>
+      
+    <details class="timeline-card searchable" open>
+      <summary>
+        <span class="time">10:25</span>
+        <span class="summary-main"><b>抵達關西機場第一航廈 KIX T1</b><em>先上廁所、領行李、準備搭南海電鐵</em></span>
+        <span class="chev">展開</span>
+      </summary>
+      <div class="card-content">
+        
+      <figure class="photo">
+        <img loading="lazy" src="https://www.nankai.co.jp/sites/default/files/2023-03/Limited_Express_Rapita.png" alt="抵達關西機場第一航廈 KIX T1" onerror="this.closest('figure').classList.add('noimg'); this.remove();" />
+        <figcaption>南海電鐵 Rapi:t 路線圖</figcaption>
+      </figure>
+        <div class="copy">
+          <ul><li>跟著「Railways / 鉄道」指標走到 2F 連絡橋，前往 JR / Nankai 車站。</li><li>建議先在機場買水、上廁所、把護照與機票收好；不要急著衝車。</li><li>南海 Rapi:t 是指定席特急，車廂內有行李空間；第一次日本搭車較安心。</li><li>若排隊入境較久，原訂午餐就改成便利商店飯糰或車站麵包，行程不硬追。</li></ul>
+          
+          <div class="button-row"><a class="btn map" href="https://www.google.com/maps/dir/?api=1&amp;origin=Kansai+International+Airport+Terminal+1&amp;destination=Hotel+Hillarys+Shinsaibashi&amp;travelmode=transit" target="_blank" rel="noopener">KIX→飯店 Google 路線</a><a class="btn " href="https://www.nankai.co.jp/en_railway/traffic/express/rapit.html" target="_blank" rel="noopener">南海 Rapi:t 官方</a></div>
+        </div>
+      </div>
+    </details>
+      
+    <details class="timeline-card searchable" open>
+      <summary>
+        <span class="time">11:30</span>
+        <span class="summary-main"><b>南海 Rapi:t 到難波，再轉御堂筋線</b><em>抓 34-40 分鐘到難波，轉乘時跟著「Subway / Midosuji Line」</em></span>
+        <span class="chev">展開</span>
+      </summary>
+      <div class="card-content">
+        
+      <figure class="photo">
+        <img loading="lazy" src="https://www.nankai.co.jp/sites/default/files/2022-06/mv_rapit_pc.jpg" alt="南海 Rapi:t 到難波，再轉御堂筋線" onerror="this.closest('figure').classList.add('noimg'); this.remove();" />
+        <figcaption>南海 Rapi:t 特急列車</figcaption>
+      </figure>
+        <div class="copy">
+          <ul><li>在售票機或服務櫃檯購買 KIX → Namba 的乘車券＋特急券；若已有 QR/預約票，依櫃檯指示兌換。</li><li>到難波後不要急：先找電梯，再跟著紅色 M 標誌的 Osaka Metro 御堂筋線。</li><li>御堂筋線從「なんば Namba」到「心斎橋 Shinsaibashi」只約 1 站，帶行李可優先找電梯出口。</li><li>手機地圖請輸入飯店名，不要只輸入「心齋橋」，避免出口走錯。</li></ul>
+          
+          <div class="button-row"><a class="btn map" href="https://www.google.com/maps/dir/?api=1&amp;origin=Nankai+Namba+Station&amp;destination=Hotel+Hillarys+Shinsaibashi&amp;travelmode=transit" target="_blank" rel="noopener">難波→飯店路線</a><a class="btn map" href="https://www.google.com/maps/search/?api=1&amp;query=Nankai+Namba+Station+ticket+gate" target="_blank" rel="noopener">南海難波站照片</a></div>
+        </div>
+      </div>
+    </details>
+      
+    <details class="timeline-card searchable" open>
+      <summary>
+        <span class="time">13:00-15:00</span>
+        <span class="summary-main"><b>寄放行李＋美國村 BIGSTEP / Arena 泳裝任務</b><em>把等待入住變成安全半徑活動，順路看泳裝</em></span>
+        <span class="chev">展開</span>
+      </summary>
+      <div class="card-content">
+        
+      <figure class="photo">
+        <img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/American-Village_BIG_STEP.jpg" alt="心齋橋 BIGSTEP / 美國村" onerror="this.closest('figure').classList.add('noimg'); this.remove();" />
+        <figcaption>美國村 BIGSTEP 外觀照片</figcaption>
+      </figure>
+        <div class="copy">
+          <ul><li><b>13:00</b> 到 Hotel Hillarys Shinsaibashi 先寄放行李，順便確認 15:00 入住、早餐時間、電梯、洗衣/大浴場、最近便利商店與晚間回飯店路線。</li><li><b>13:20</b> 輕裝走到心齋橋 BIGSTEP / 美國村三角公園一帶；從飯店出發距離近，適合第一次到日本先熟悉街道。</li><li><b>13:30-14:15 泳裝任務：</b>直上 BIGSTEP 3F「SPORTS ZYUEN」。它是游泳專門店，重點看 Arena 競泳泳裝、練習泳裝、健身泳裝、Junior 尺寸、泳帽、蛙鏡與毛巾。</li><li><b>14:15-14:45</b> 若還沒買到，就先拍尺寸/型號回飯店想一下；如果已買到，接著到 BIGSTEP 中庭、美國村小店或咖啡店休息。</li><li>若入境或交通延遲，Day 1 不硬買：先用 Google Maps 收藏店家，Day 2 改去梅田 Grand Front Osaka 的 Arena Shop Osaka。</li></ul>
+          <div class="guide-box"><b>買 Arena 泳裝小抄：</b>進店可問「arena の レディース水着はありますか？」想找競泳款說「競泳水着」，練習款說「トレーニング水着」，健身款說「フィットネス水着」。日本尺寸可能和台灣不完全相同，泳衣通常貼身且退換貨條件嚴格，請務必現場確認尺寸、用途與可否試穿。</div>
+          <div class="button-row"><a class="btn map" href="https://www.google.com/maps/search/?api=1&amp;query=Hotel+Hillarys+Shinsaibashi" target="_blank" rel="noopener">飯店 Google Maps</a><a class="btn map" href="https://www.google.com/maps/search/?api=1&amp;query=Shinsaibashi+BIGSTEP" target="_blank" rel="noopener">BIGSTEP Google Maps</a><a class="btn " href="https://www.americamura.jp/" target="_blank" rel="noopener">美國村官方</a><a class="btn " href="https://big-step.co.jp/" target="_blank" rel="noopener">BIGSTEP 官方</a><a class="btn " href="https://z-b.co.jp/en/shinsaibashi.html" target="_blank" rel="noopener">SPORTS ZYUEN 官方</a><a class="btn map" href="https://www.google.com/maps/search/?api=1&amp;query=SPORTS+ZYUEN+Shinsaibashi+BIGSTEP" target="_blank" rel="noopener">SPORTS ZYUEN 地圖/店照</a></div>
+        </div>
+      </div>
+    </details>
+      
+    <details class="timeline-card searchable" open>
+      <summary>
+        <span class="time">15:30</span>
+        <span class="summary-main"><b>心齋橋筋商店街 / PARCO / 道頓堀</b><em>藥妝、青少女小物、角色商店與大阪第一晚街景</em></span>
+        <span class="chev">展開</span>
+      </summary>
+      <div class="card-content">
+        
+      <figure class="photo">
+        <img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Shinsaibashi%20Osaka%20Japan01-r.jpg" alt="心齋橋筋商店街 / PARCO / 道頓堀" onerror="this.closest('figure').classList.add('noimg'); this.remove();" />
+        <figcaption>心齋橋商圈照片</figcaption>
+      </figure>
+        <div class="copy">
+          <div class="guide-box"><b>安心逛法：</b>飯店 → 心齋橋筋商店街 → 大丸心齋橋 / 心齋橋 PARCO → 戎橋 → 道頓堀固力果。今天只逛「看得到、走得到」的範圍，不臨時跨太遠。</div>
+          <ul><li><b>藥妝先看不急買：</b>松本清、Sundrug、Daikoku、TSURUHA 等先比防曬、面膜、眼藥水、痠痛貼；真的確定再一次退稅，護照要隨身。</li><li><b>青少女小物：</b>#C-pla 扭蛋、DAISO、3COINS / M coin’s、WEGO、LUSH、CASETiFY、POP MART 都很適合女兒慢慢挑。</li><li><b>角色與流行：</b>PARCO 5F / 6F 可重點找 Kiddy Land、Snoopy Town、Rilakkuma、蠟筆小新、POP MART、LEGO 等；媽媽可用這段在旁邊休息或補逛藥妝。</li><li><b>晚餐前控量：</b>不要拿太多袋子進餐廳；重物與大件衣服留到 Day 5 Outlet 或回飯店前再買。</li></ul>
+          <div class="store-grid">
+            <div class="store-mini"><b>藥妝必看</b>松本清、Sundrug、Daikoku、TSURUHA。建議先拍價格，最後集中一間結帳退稅。<span class="tagline">防曬 / 面膜 / 痠痛貼</span></div>
+            <div class="store-mini"><b>青少女小物</b>#C-pla 扭蛋、DAISO、3COINS / M coin’s、WEGO、LUSH。適合買髮飾、襪子、貼紙、收納包。<span class="tagline">小而好帶</span></div>
+            <div class="store-mini"><b>著名商店</b>UNIQLO、GU、H&amp;M、ZARA、ABC-MART、EDION、Hands。若女兒想買鞋，先確認鞋盒體積。<span class="tagline">服飾 / 鞋 / 文具</span></div>
+            <div class="store-mini"><b>甜點輕食</b>Ben’s Cookies、PABLO、星乃咖啡、心齋橋ミツヤ，排隊太長就改便利商店飲料＋小點。<span class="tagline">走累備案</span></div>
+          </div>
+          <div class="button-row"><a class="btn " href="https://global.shinsaibashi.or.jp/zh-TW" target="_blank" rel="noopener">心齋橋官方商店街</a><a class="btn map" href="https://www.google.com/maps/search/?api=1&amp;query=Shinsaibashi-suji+Shopping+Street+drugstore" target="_blank" rel="noopener">藥妝地圖</a><a class="btn map" href="https://www.google.com/maps/search/?api=1&amp;query=Daiso+Shinsaibashi-suji+Shopping+Street" target="_blank" rel="noopener">DAISO 地圖</a><a class="btn map" href="https://www.google.com/maps/search/?api=1&amp;query=Shinsaibashi+PARCO+6F+POP+CULTURE" target="_blank" rel="noopener">PARCO 角色樓層</a><a class="btn map" href="https://www.google.com/maps/dir/?api=1&amp;origin=Shinsaibashi+PARCO&amp;destination=Dotonbori+Glico+Sign&amp;travelmode=walking" target="_blank" rel="noopener">道頓堀散步路線</a></div>
+        </div>
+      </div>
+    </details>
+
+    <div class="grid two">
+      <article class="info-card searchable">
+        <h3>心齋橋商店重點：藥妝怎麼逛</h3>
+        <p>第一次去日本最容易在藥妝店失控，建議先列 6 類：防曬、面膜、護唇膏、眼藥水、痠痛貼、感冒/腸胃備品。藥品請看年齡與用法，不確定就拍照問店員，不要隨便買成人劑量給女兒。</p>
+        <div class="store-grid"><div class="store-mini"><b>媽媽</b>防曬、保濕、卸妝、熱敷眼罩、休足時間類貼布。</div><div class="store-mini"><b>女兒</b>護唇膏、小包面膜、髮油、止汗、可愛包裝小物。</div></div>
+      </article>
+      <article class="info-card searchable">
+        <h3>心齋橋商店重點：青少女小物與角色</h3>
+        <p>適合升高一女生的不是大採購，而是「好拍、好用、好帶走」：扭蛋、鑰匙圈、貼紙、手機殼、襪子、髮夾、文具、小吊飾。PARCO 角色樓層和心齋橋筋的平價雜貨店都很適合。</p>
+        <div class="store-grid"><div class="store-mini"><b>小物區</b>#C-pla、DAISO、3COINS / M coin’s、Hands。</div><div class="store-mini"><b>角色區</b>Kiddy Land、Snoopy Town、Rilakkuma、蠟筆小新、POP MART。</div></div>
+      </article>
+      <article class="info-card searchable">
+        <h3>心齋橋著名商店與媽媽休息點</h3>
+        <p>大型服飾和鞋店可以快速逛，不建議第一晚試穿太久。媽媽若累了，就把集合點設在 PARCO / 大丸內咖啡或百貨洗手間附近，女兒逛 20 分鐘後回來會合。</p>
+        <div class="button-row"><a class="btn map" href="https://www.google.com/maps/search/?api=1&amp;query=Shinsaibashi+PARCO" target="_blank" rel="noopener">PARCO 地圖</a><a class="btn map" href="https://www.google.com/maps/search/?api=1&amp;query=Daimaru+Shinsaibashi" target="_blank" rel="noopener">大丸心齋橋</a></div>
+      </article>
+      <article class="info-card searchable">
+        <h3>心齋橋飲食小提醒</h3>
+        <p>第一晚晚餐已排道頓堀燒肉，下午建議只吃甜點或小點，避免吃太飽。人潮多時，不要邊走邊看手機；找店面旁邊安全位置停下來再查地圖。</p>
+        <div class="button-row"><a class="btn food" href="https://www.google.com/maps/search/?api=1&amp;query=Ben%27s+Cookies+Shinsaibashi" target="_blank" rel="noopener">Ben’s Cookies</a><a class="btn food" href="https://www.google.com/maps/search/?api=1&amp;query=PABLO+Shinsaibashi" target="_blank" rel="noopener">PABLO</a></div>
+      </article>
+    </div>
+      
+    <details class="timeline-card searchable" open>
+      <summary>
+        <span class="time">18:30</span>
+        <span class="summary-main"><b>道頓堀固力果 / 和牛燒肉あぶりや</b><em>第一晚用好吃的晚餐收心</em></span>
+        <span class="chev">展開</span>
+      </summary>
+      <div class="card-content">
+        
+      <figure class="photo">
+        <img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Glico%20Man%20sign%2C%20Dotonbori.JPG" alt="道頓堀固力果 / 和牛燒肉あぶりや" onerror="this.closest('figure').classList.add('noimg'); this.remove();" />
+        <figcaption>道頓堀固力果看板照片</figcaption>
+      </figure>
+        <div class="copy">
+          <ul><li>固力果跑跑人請站在戎橋或橋側安全區，不要擋路；拍經典雙手高舉姿勢。</li><li>燒肉吃到飽建議先預約；若排隊太久，改道頓堀周邊壽司、拉麵、炸串也很好。</li><li>回飯店前補水、買隔天早餐小點或喉糖；第一天不要逛到太晚。</li><li>費用抓每人約 ¥4,800-¥5,500 起，依分店與方案變動。</li></ul>
+          
+          <div class="button-row"><a class="btn map" href="https://www.google.com/maps/search/?api=1&amp;query=Dotonbori+Glico+Sign" target="_blank" rel="noopener">固力果 Google Maps</a><a class="btn food" href="https://www.google.com/maps/search/?api=1&amp;query=%E5%9C%8B%E7%94%A3%E7%89%9B%E7%84%BC%E8%82%89%E3%81%82%E3%81%B6%E3%82%8A%E3%82%84+%E9%81%93%E9%A0%93%E5%A0%80" target="_blank" rel="noopener">あぶりや 道頓堀附近</a></div>
+        </div>
+      </div>
+    </details>
+    </section>
+
+    <section id="arena-swimwear" class="day searchable">
+      <div class="day-head">
+        <div class="day-title"><div class="date">泳裝任務｜Arena / SPORTS ZYUEN</div><h2>買 Arena 泳裝：兩個最順路選擇</h2><p>這段是專門為「要買 Arena 泳裝」加進去的。不要把它當亂逛，任務很明確：確認尺寸、用途、款式與配件，最多停留 30-45 分鐘。</p></div>
+        <div class="day-summary">
+          <div class="summary-mini"><b>首選：</b>Day 1 心齋橋 BIGSTEP 3F SPORTS ZYUEN，離飯店近、第一天就能看。</div>
+          <div class="summary-mini"><b>備案：</b>Day 2 梅田 Grand Front Osaka 南館 4F Arena Shop Osaka，官方直營店。</div>
+          <div class="summary-mini"><b>關鍵字：</b>Arena、泳裝、競泳水着、トレーニング水着、フィットネス水着、蛙鏡。</div>
+        </div>
+      </div>
+      <div class="grid two">
+        <article class="info-card searchable">
+          <h3>Option A｜SPORTS ZYUEN 心齋橋 BIGSTEP 3F</h3>
+          <figure class="photo">
+            <img loading="lazy" src="https://big-step.co.jp/storage/2022/06/3804c50a6cc71bd8e6892a4a2d5adeed496df007.jpg" alt="SPORTS ZYUEN 心齋橋 BIGSTEP 店面" onerror="this.closest('figure').classList.add('noimg'); this.remove();" />
+            <figcaption>SPORTS ZYUEN 心齋橋 BIGSTEP 店面照片</figcaption>
+          </figure>
+          <div class="guide-box"><b>為什麼適合：</b>它就在 Day 1 的 BIGSTEP 動線上，距離飯店近，適合第一天先把 Arena 泳裝任務完成；如果尺寸或款式不確定，也可以拍照回飯店慢慢決定。</div>
+          <ul>
+            <li><b>地點：</b>大阪市中央區西心齋橋 1-6-14 SHINSAIBASHI BIGSTEP 3F。</li>
+            <li><b>營業：</b>BIGSTEP 店鋪頁標示 11:00-20:00；Arena 官方店鋪表也列為 Gold Partner，並列出電話 06-4708-3305。</li>
+            <li><b>看什麼：</b>Arena / Speedo / Mizuno / TYR 等泳裝品牌，競技泳裝、一般練習泳裝、Junior、蛙鏡、泳帽、泳包、毛巾。</li>
+            <li><b>逛法：</b>先找女款 Arena → 確認「競泳 / 練習 / 健身」用途 → 試尺寸或問店員 → 最後加買泳帽或蛙鏡。</li>
+          </ul>
+          <div class="button-row"><a class="btn " href="https://z-b.co.jp/en/shinsaibashi.html" target="_blank" rel="noopener">SPORTS ZYUEN 英文頁</a><a class="btn " href="https://big-step.co.jp/shop/detail/14" target="_blank" rel="noopener">BIGSTEP 店鋪頁</a><a class="btn map" href="https://www.google.com/maps/search/?api=1&amp;query=SPORTS+ZYUEN+Shinsaibashi+BIGSTEP" target="_blank" rel="noopener">Google Maps / 店面照片</a><a class="btn map" href="https://www.google.com/maps/dir/?api=1&amp;origin=Hotel+Hillarys+Shinsaibashi&amp;destination=SPORTS+ZYUEN+Shinsaibashi+BIGSTEP&amp;travelmode=walking" target="_blank" rel="noopener">飯店→店家步行</a></div>
+        </article>
+        <article class="info-card searchable">
+          <h3>Option B｜Arena Shop Osaka 梅田 Grand Front Osaka 南館 4F</h3>
+          <figure class="photo">
+            <img loading="lazy" src="https://store.descente.co.jp/arena/wp-content/uploads/sites/8/2025/07/osaka.jpg" alt="Arena Shop Osaka 店面" onerror="this.closest('figure').classList.add('noimg'); this.remove();" />
+            <figcaption>Arena Shop Osaka 官方店面照片</figcaption>
+          </figure>
+          <div class="guide-box"><b>為什麼適合：</b>如果想逛 Arena 官方直營店，Day 2 從大丸梅田、HEP FIVE、空中庭園都在梅田區域，順路插入 30 分鐘最剛好。</div>
+          <ul>
+            <li><b>地點：</b>Grand Front Osaka 南館 4F，大阪市北區大深町 4-20。</li>
+            <li><b>營業：</b>官方店鋪表與 Grand Front Osaka 店鋪頁皆標示 11:00-21:00，定休日依 Grand Front Osaka。</li>
+            <li><b>看什麼：</b>競泳泳裝、日常練習泳裝、健身泳裝、泳帽、蛙鏡、泳包與 Arena 直營店限定/新款。</li>
+            <li><b>逛法：</b>Day 2 大丸 13F 角色商店結束後，若還有體力就走去 Grand Front Osaka 南館 4F；若女兒累，這段直接略過。</li>
+          </ul>
+          <div class="button-row"><a class="btn " href="https://store.descente.co.jp/arena/stores/" target="_blank" rel="noopener">arena 官方店鋪表</a><a class="btn " href="https://www.gfo-sc.jp/shop-detail/arena/" target="_blank" rel="noopener">Grand Front 店鋪頁</a><a class="btn map" href="https://www.google.com/maps/search/?api=1&amp;query=arena+Shop+Osaka+Grand+Front+Osaka+South+Building+4F" target="_blank" rel="noopener">Google Maps / 店面照片</a><a class="btn map" href="https://www.google.com/maps/dir/?api=1&amp;origin=Daimaru+Umeda+13F&amp;destination=arena+Shop+Osaka+Grand+Front+Osaka&amp;travelmode=walking" target="_blank" rel="noopener">大丸13F→Arena</a></div>
+        </article>
+      </div>
+      <article class="info-card searchable">
+        <h3>媽媽買泳裝檢查表</h3>
+        <div class="store-grid">
+          <div class="store-mini"><b>用途先決定</b>比賽用競泳款較緊、穿脫較費力；日常練習款較耐穿；健身款較舒服。</div>
+          <div class="store-mini"><b>尺寸一定確認</b>日本尺寸、胸墊、肩帶、腿口、背部開口都要看；不能只看 S/M/L。</div>
+          <div class="store-mini"><b>配件一起看</b>泳帽、蛙鏡、防水袋、吸水毛巾、小網袋比大型裝備更好帶回台灣。</div>
+          <div class="store-mini"><b>付款前問清楚</b>可否退換、是否免稅、是否可試穿、是否有現貨尺寸。</div>
+        </div>
+      </article>
+    </section>
+
+
+    <section id="day2" class="day searchable">
+      <div class="day-head">
+        <div class="day-title"><div class="date">Day 2｜06/09（二）</div><h2>大阪城、抹茶、梅田可愛逆襲</h2><p>早上歷史與日式照片，下午梅田角色商店，晚上高空夜景。這天很好拍，但也容易走多，鞋子請穿最舒服那雙。</p></div>
+        <div class="day-summary">
+          <div class="summary-mini"><b>交通主軸：</b>心齋橋 → 森之宮 / 大阪城 → JR 大阪 / 梅田</div>
+          <div class="summary-mini"><b>票價提醒：</b>大阪城成人 ¥1,200；空中庭園成人 ¥2,000</div>
+          <div class="summary-mini"><b>母女亮點：</b>Nintendo OSAKA、Pokémon Center、Arena Shop Osaka、拍貼機、夜景</div>
+        </div>
+      </div>
+      
+    <details class="timeline-card searchable" open>
+      <summary>
+        <span class="time">08:45</span>
+        <span class="summary-main"><b>出發去大阪城公園</b><em>從心齋橋搭長堀鶴見綠地線到森之宮較順</em></span>
+        <span class="chev">展開</span>
+      </summary>
+      <div class="card-content">
+        
+      <figure class="photo">
+        <img loading="lazy" src="https://www.osakacastle.net/img/top/keyvisual_bg_01.jpg" alt="出發去大阪城公園" onerror="this.closest('figure').classList.add('noimg'); this.remove();" />
+        <figcaption>大阪城天守閣官方照片</figcaption>
+      </figure>
+        <div class="copy">
+          <ul><li>出門前查 Google Maps，目的地設定「Osaka Castle Museum」或「大阪城天守閣」。</li><li>森之宮站出來後走公園路線較寬，適合慢慢拍照；天熱時先買水。</li><li>如果女兒想穿浴衣，建議只作為可選項；6 月可能濕熱，穿太久會累。</li><li>大阪城官方 2025/4/1 後票價：成人 ¥1,200；高中/大學生 ¥600，需學生證；國中以下免費但也需年齡證明。</li></ul>
+          
+          <div class="button-row"><a class="btn map" href="https://www.google.com/maps/dir/?api=1&amp;origin=Hotel+Hillarys+Shinsaibashi&amp;destination=Osaka+Castle+Museum&amp;travelmode=transit" target="_blank" rel="noopener">心齋橋→大阪城路線</a><a class="btn " href="https://www.osakacastle.net/guide/" target="_blank" rel="noopener">大阪城官方票價</a></div>
+        </div>
+      </div>
+    </details>
+      
+    <details class="timeline-card searchable" open>
+      <summary>
+        <span class="time">09:30</span>
+        <span class="summary-main"><b>大阪城天守閣 / 石牆 / 城內重點景點</b><em>把城內展覽變成母女也看得懂的故事路線</em></span>
+        <span class="chev">展開</span>
+      </summary>
+      <div class="card-content">
+        
+      <figure class="photo">
+        <img loading="lazy" src="https://www.osakacastle.net/img/top/keyvisual_bg_01.jpg" alt="大阪城天守閣 / 石牆 / 城內重點景點" onerror="this.closest('figure').classList.add('noimg'); this.remove();" />
+        <figcaption>大阪城天守閣照片</figcaption>
+      </figure>
+        <div class="copy">
+          <div class="guide-box"><b>建議路線：</b>森之宮站 → 噴水廣場 → 外濠與石牆 → 櫻門 → 蛸石 → 天守閣 → MIRAIZA / JO-TERRACE 休息。走路距離比想像長，6 月先買水再進城。</div>
+          <ul><li><b>城外先拍：</b>外濠、石牆、櫻門、蛸石都很有氣勢，女兒可拍「人小城大」的旅行感照片。</li><li><b>入館省力看法：</b>如果體力普通，先搭電梯上高樓層，再一路往下逛；重點看 8F 展望、7F 秀吉生涯、5F 大坂夏之陣、3F 黃金茶室/復原模型。</li><li><b>城內備案：</b>若排隊太長，可改成西之丸庭園外拍、豐國神社、MIRAIZA 伴手禮與 JO-TERRACE 甜點。</li><li><b>拍照提醒：</b>館內部分展品可能限制拍攝，現場看到禁止攝影標示就收手機。</li></ul>
+          <div class="store-grid">
+            <div class="store-mini"><b>1F 入口 / 劇場 / 商店</b>先拿簡介、確認廁所和電梯位置，離開前再買小伴手禮。</div>
+            <div class="store-mini"><b>2F 城郭知識</b>看大阪城與日本城堡基本知識，適合快速建立背景。</div>
+            <div class="store-mini"><b>3F 黃金茶室 / 復原模型</b>適合拍記憶點：華麗、好理解，也比較吸引青少女。</div>
+            <div class="store-mini"><b>5F 大坂夏之陣</b>用屏風、影像與模型理解戰役，是最有故事感的一層。</div>
+            <div class="store-mini"><b>7F 豐臣秀吉的一生</b>把大阪城和歷史人物連起來，不用逐字看，抓「如何崛起」即可。</div>
+            <div class="store-mini"><b>8F 展望台</b>從高處看大阪城公園與大阪市景；風大時注意帽子和手機。</div>
+          </div>
+          <div class="button-row"><a class="btn map" href="https://www.google.com/maps/search/?api=1&amp;query=Osaka+Castle+Museum" target="_blank" rel="noopener">大阪城 Google Maps</a><a class="btn " href="https://www.osakacastle.net/exhibition/" target="_blank" rel="noopener">天守閣展覽樓層</a><a class="btn map" href="https://www.google.com/maps/search/?api=1&amp;query=Nishinomaru+Garden+Osaka+Castle" target="_blank" rel="noopener">西之丸庭園</a><a class="btn food" href="https://www.google.com/maps/search/?api=1&amp;query=JO-TERRACE+OSAKA" target="_blank" rel="noopener">JO-TERRACE 休息</a></div>
+        </div>
+      </div>
+    </details>
+      
+    <details class="timeline-card searchable" open>
+      <summary>
+        <span class="time">13:00</span>
+        <span class="summary-main"><b>前往梅田：大丸 13F 角色商店</b><em>Nintendo、Pokémon、ONE PIECE、CAPCOM 集中攻略</em></span>
+        <span class="chev">展開</span>
+      </summary>
+      <div class="card-content">
+        
+      <figure class="photo">
+        <img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Osaka%20Pok%C3%A9mon%20Center.jpg" alt="Pokémon Center Osaka / 大丸梅田 13F" onerror="this.closest('figure').classList.add('noimg'); this.remove();" />
+        <figcaption>Pokémon Center Osaka 參考照片</figcaption>
+      </figure>
+        <div class="copy">
+          <div class="guide-box"><b>從大阪城到梅田：</b>JR 森之宮 → 大阪站。到大阪站後不要在地下街亂繞，直接跟著「South Gate Building / Daimaru Umeda / LUCUA SOUTH」標示，搭電梯或手扶梯上 13F。</div>
+          <ul><li><b>時間控管：</b>13F 角色商店很容易逛超時，建議總停留 75-90 分鐘；每人先選 3 個最想買的品項。</li><li><b>購物策略：</b>先看 Nintendo OSAKA 與 Pokémon Center，再依女兒喜好加逛 ONE PIECE 或 CAPCOM；媽媽可在同樓層找休息區，約 20 分鐘回來會合。</li><li><b>預算提醒：</b>吊飾、文具、毛巾、收納袋比大型玩偶好帶；大型盒裝請先想好行李空間。</li><li><b>人潮提醒：</b>熱門時段若店家要求整理券或排隊，先照現場規則，不把後面 Arena Shop Osaka、HEP FIVE / 空中庭園全卡住。</li><li><b>泳裝銜接：</b>如果 Day 1 沒買到 Arena 泳裝，角色商店後直接去 Grand Front Osaka 南館 4F 的 Arena Shop Osaka。</li></ul>
+          <div class="store-grid">
+            <div class="store-mini"><b>Nintendo OSAKA</b>瑪利歐、Splatoon、動森、薩爾達、皮克敏等官方商品。<span class="tagline">遊戲迷首站</span></div>
+            <div class="store-mini"><b>Pokémon Center OSAKA</b>寶可夢娃娃、文具、卡牌周邊、小吊飾，適合設定預算後慢慢挑。<span class="tagline">可愛又好買</span></div>
+            <div class="store-mini"><b>ONE PIECE 麥わらストア</b>若女兒看動漫，可順路看魯夫與草帽一行人周邊。<span class="tagline">動漫周邊</span></div>
+            <div class="store-mini"><b>CAPCOM STORE &amp; CAFE UMEDA</b>魔物獵人、Street Fighter、Resident Evil 等角色商品與限定周邊。<span class="tagline">遊戲周邊</span></div>
+          </div>
+          <div class="button-row"><a class="btn map" href="https://www.google.com/maps/dir/?api=1&amp;origin=Morinomiya+Station&amp;destination=Daimaru+Umeda+13F&amp;travelmode=transit" target="_blank" rel="noopener">森之宮→大丸13F</a><a class="btn " href="https://www.nintendo.com/jp/officialstore/" target="_blank" rel="noopener">Nintendo 官方店</a><a class="btn " href="https://www.pokemon.co.jp/shop/en/pokecen/osaka/" target="_blank" rel="noopener">Pokémon Center</a><a class="btn " href="https://www.mugiwara-store.com/store/umeda/" target="_blank" rel="noopener">ONE PIECE 梅田店</a><a class="btn " href="https://www.capcom.co.jp/amusement/brands/capcomstore/" target="_blank" rel="noopener">CAPCOM STORE</a></div>
+        </div>
+      </div>
+    </details>
+      
+
+    <details class="timeline-card searchable" open>
+      <summary>
+        <span class="time">14:45</span>
+        <span class="summary-main"><b>可選：Arena Shop Osaka 買泳裝</b><em>Grand Front Osaka 南館 4F，想逛官方直營店就排這段</em></span>
+        <span class="chev">展開</span>
+      </summary>
+      <div class="card-content">
+      <figure class="photo">
+        <img loading="lazy" src="https://store.descente.co.jp/arena/wp-content/uploads/sites/8/2025/07/osaka.jpg" alt="Arena Shop Osaka Grand Front Osaka" onerror="this.closest('figure').classList.add('noimg'); this.remove();" />
+        <figcaption>Arena Shop Osaka 官方店面照片</figcaption>
+      </figure>
+        <div class="copy">
+          <div class="guide-box"><b>為什麼要加：</b>如果 Day 1 在 BIGSTEP 沒買到 Arena 泳裝，Day 2 梅田剛好有 Arena Shop Osaka。它在 Grand Front Osaka 南館 4F，官方資訊寫有競泳泳裝、練習泳裝、健身泳裝與水泳配件，適合用 30 分鐘完成泳裝任務。</div>
+          <div class="focus-list">
+            <div class="focus-item"><b>抱著什麼心情</b>這不是血拼，是精準採買：確認尺寸、用途、顏色與配件，買到就離開。</div>
+            <div class="focus-item"><b>只抓 4 個重點</b>Arena 女款泳裝、尺寸、蛙鏡/泳帽、是否免稅/可退換。</div>
+          </div>
+          <ul><li><b>路線：</b>從大丸梅田 / JR大阪站一帶走到 Grand Front Osaka 南館，進館後找 4F「arena」。梅田地下街複雜，請直接點 Google Maps。</li><li><b>商品方向：</b>競泳款偏專業、練習款耐穿、健身款舒服；若不是比賽用途，不一定要買最緊的競泳高階款。</li><li><b>時間控管：</b>14:45-15:20 是上限；如果超過，HEP FIVE 或空中庭園就會壓縮。</li><li><b>備案：</b>若女兒更想拍貼或逛角色商店，就把 Arena Shop Osaka 當備案，Day 1 的 SPORTS ZYUEN 已經是較順路的選擇。</li></ul>
+          <div class="button-row"><a class="btn " href="https://store.descente.co.jp/arena/stores/" target="_blank" rel="noopener">arena 官方店鋪表</a><a class="btn " href="https://www.gfo-sc.jp/shop-detail/arena/" target="_blank" rel="noopener">Grand Front 店鋪頁</a><a class="btn map" href="https://www.google.com/maps/search/?api=1&amp;query=arena+Shop+Osaka+Grand+Front+Osaka+South+Building+4F" target="_blank" rel="noopener">Arena Shop Osaka 地圖/店照</a><a class="btn map" href="https://www.google.com/maps/dir/?api=1&amp;origin=Daimaru+Umeda+13F&amp;destination=arena+Shop+Osaka+Grand+Front+Osaka&amp;travelmode=walking" target="_blank" rel="noopener">大丸13F→Arena路線</a></div>
+        </div>
+      </div>
+    </details>
+      
+    <details class="timeline-card searchable" open>
+      <summary>
+        <span class="time">15:30</span>
+        <span class="summary-main"><b>HEP FIVE：青春感紅色摩天輪＋拍貼</b><em>不是為了買很多，是為了感受日本高中生會喜歡的梅田</em></span>
+        <span class="chev">展開</span>
+      </summary>
+      <div class="card-content">
+      <figure class="photo">
+        <img loading="lazy" src="https://www.hepfive.jp/common/img/ferriswheel/photo_list01.jpg" alt="HEP FIVE 紅色摩天輪" onerror="this.closest('figure').classList.add('noimg'); this.remove();" />
+        <figcaption>HEP FIVE 摩天輪官方照片</figcaption>
+      </figure>
+        <div class="copy">
+          <div class="guide-box"><b>為什麼要去：</b>HEP FIVE 的重點不是百貨購物，而是「梅田年輕人商場＋紅色摩天輪＋拍貼機」。對升高一女兒來說，這裡比較像去看日本同齡女生的可愛日常，媽媽則把它當成輕鬆、好拍、不用很懂歷史的青春休息站。</div>
+          <div class="focus-list">
+            <div class="focus-item"><b>抱著什麼心情</b>像陪女兒進入日本 JK 逛街世界：不要急著買，先看髮飾、服飾、拍貼機、可愛店面。</div>
+            <div class="focus-item"><b>只抓 3 個重點</b>① 紅色摩天輪外觀拍照 ② 搭摩天輪看梅田街景 ③ 母女一起拍一張拍貼。</div>
+          </div>
+          <ul><li><b>紅色摩天輪特色：</b>在商場裡搭摩天輪，從市中心看 360 度大阪街景；官方資料寫一圈約 15 分鐘、高度約 106m、車廂有冷暖氣。</li><li><b>白天 vs 晚上：</b>白天看街道與建築比較清楚，晚上看到燈光會更有約會感；若後面還要去空中庭園，HEP FIVE 就抓「青春＋拍貼」即可。</li><li><b>拍貼機玩法：</b>先讓女兒選機台與濾鏡，媽媽只負責一起比愛心、看鏡頭，不用追求完美，重點是留下母女第一次日本的可愛紀念。</li><li><b>時間建議：</b>如果女兒對服飾小物沒興趣，30-45 分鐘就夠；如果想拍貼＋搭摩天輪，抓 60-75 分鐘。</li></ul>
+          <div class="button-row"><a class="btn " href="https://www.hepfive.jp/ferriswheel" target="_blank" rel="noopener">HEP FIVE 官方</a><a class="btn map" href="https://www.google.com/maps/search/?api=1&amp;query=HEP+FIVE+Ferris+Wheel" target="_blank" rel="noopener">HEP FIVE Google Maps</a><a class="btn map" href="https://www.google.com/maps/search/?api=1&amp;query=HEP+FIVE+purikura" target="_blank" rel="noopener">HEP FIVE 拍貼機搜尋</a></div>
+        </div>
+      </div>
+    </details>
+      
+    <details class="timeline-card searchable" open>
+      <summary>
+        <span class="time">17:20</span>
+        <span class="summary-main"><b>梅田藍天大廈空中庭園</b><em>把大阪看成一座城市，黃昏到夜景最有感</em></span>
+        <span class="chev">展開</span>
+      </summary>
+      <div class="card-content">
+      <figure class="photo">
+        <img loading="lazy" src="https://www.skybldg.co.jp/lang/asset/img/top/ticket_event_pic02.webp?u=250801" alt="梅田藍天大廈空中庭園" onerror="this.closest('figure').classList.add('noimg'); this.remove();" />
+        <figcaption>梅田藍天大廈空中庭園官方照片</figcaption>
+      </figure>
+        <div class="copy">
+          <div class="guide-box"><b>為什麼要去：</b>HEP FIVE 是「可愛青春」，空中庭園是「哇，原來大阪這麼大」。官方介紹它連接梅田藍天大廈東西塔，包含 39F、40F 與屋頂樓層，屋頂是 360 度開放式展望台；它適合當 Day 2 的情緒高潮。</div>
+          <div class="focus-list">
+            <div class="focus-item"><b>抱著什麼心情</b>像把旅行暫停一下：站高一點，看大阪的河、橋、鐵道、燈光，把這趟母女旅行放進大城市夜景裡。</div>
+            <div class="focus-item"><b>只抓 4 個重點</b>① 玻璃電梯/空中手扶梯 ② 40F 室內窗景 ③ 屋頂 360 度風景 ④ 夜景人像。</div>
+          </div>
+          <ul><li><b>最佳時段：</b>6 月日落晚，建議抓 18:15-19:30 之間上去，先拍黃昏，再等燈亮；如果天氣陰，也可拍室內窗邊與光影。</li><li><b>和 HEP FIVE 的差異：</b>HEP FIVE 是 15 分鐘的可愛小遊樂；空中庭園是慢慢看城市輪廓、拍大景與夜景。</li><li><b>母女拍法：</b>先拍背影看城市，再拍側臉剪影；手機夜景模式開啟，人物不要貼玻璃，避免反光。</li><li><b>安心提醒：</b>屋頂風可能大，帽子、紙袋、手機吊繩要收好；若下大雨或強風，屋頂可能受影響，改在 40F 室內看景。</li></ul>
+          <div class="button-row"><a class="btn " href="https://www.skybldg.co.jp/en/" target="_blank" rel="noopener">空中庭園官方</a><a class="btn map" href="https://www.google.com/maps/dir/?api=1&amp;origin=HEP+FIVE&amp;destination=Umeda+Sky+Building&amp;travelmode=walking" target="_blank" rel="noopener">HEP→空中庭園路線</a><a class="btn map" href="https://www.google.com/maps/search/?api=1&amp;query=Umeda+Sky+Building+Kuchu+Teien+Observatory+entrance" target="_blank" rel="noopener">入口照片搜尋</a></div>
+        </div>
+      </div>
+    </details>
+      
+    <details class="timeline-card searchable" open>
+      <summary>
+        <span class="time">19:30</span>
+        <span class="summary-main"><b>但馬屋和牛涮涮鍋 / 梅田晚餐</b><em>走了一天後，用熱鍋和冰淇淋把體力補回來</em></span>
+        <span class="chev">展開</span>
+      </summary>
+      <div class="card-content">
+      <figure class="photo">
+        <img loading="lazy" src="https://imgfp.hotp.jp/IMGH/13/66/P023101366/P023101366_480.jpg" alt="但馬屋涮涮鍋料理照片" onerror="this.closest('figure').classList.add('noimg'); this.remove();" />
+        <figcaption>但馬屋涮涮鍋料理照片（Hot Pepper）</figcaption>
+      </figure>
+        <div class="copy">
+          <div class="guide-box"><b>為什麼要去：</b>Day 2 上午大阪城、下午大丸角色商店、傍晚夜景，走路與資訊量都很大。涮涮鍋的好處是坐著慢慢吃、熱湯舒服、蔬菜肉品可自己調整，對第一次日本母女旅行來說比排隊小店更安心。</div>
+          <div class="focus-list">
+            <div class="focus-item"><b>抱著什麼心情</b>不是衝美食排行，而是「今天辛苦了」的補給晚餐：熱鍋、肉、蔬菜、甜點，吃完就回飯店。</div>
+            <div class="focus-item"><b>只抓 3 個重點</b>① 選湯底 ② 肉類現點現切／吃到飽 ③ 飯後冰淇淋或甜點收尾。</div>
+          </div>
+          <ul><li><b>店家特色：</b>但馬屋 LINKS UMEDA / ヨドバシ梅田店主打涮涮鍋或壽喜燒吃到飽，店鋪介紹有肉品、野菜鍋料、藥味自助與二色鍋等特色。</li><li><b>對母女友善：</b>在梅田車站周邊，交通方便；熱鍋能坐著休息，女兒也可用蔬菜、烏龍麵、甜點調整飽足感。</li><li><b>點餐策略：</b>第一次去不用追最高級套餐；選大家都能接受的牛/豬方案，再把預算留給 USJ 與角色商品。</li><li><b>備案：</b>若排隊或客滿，就在 LINKS UMEDA、Grand Front Osaka、LUCUA 餐廳樓層找替代鍋物、定食或義大利麵，不硬等。</li></ul>
+          <div class="button-row"><a class="btn food" href="https://www.hotpepper.jp/strJ000012861/" target="_blank" rel="noopener">但馬屋店鋪資訊</a><a class="btn food" href="https://www.google.com/maps/search/?api=1&amp;query=Tajimaya+LINKS+UMEDA+shabu+shabu" target="_blank" rel="noopener">但馬屋 梅田 Google Maps</a><a class="btn map" href="https://www.google.com/maps/dir/?api=1&amp;origin=Umeda+Station&amp;destination=Hotel+Hillarys+Shinsaibashi&amp;travelmode=transit" target="_blank" rel="noopener">梅田→飯店路線</a></div>
+        </div>
+      </div>
+    </details>
+    </section>
+
+    <section id="day3" class="day searchable">
+      <div class="day-head">
+        <div class="day-title"><div class="date">Day 3｜06/10（三）</div><h2>移動到海邊飯店，水族館與溫泉療癒</h2><p>這天有換飯店，重點不是塞滿，而是讓身體恢復。下午海遊館、晚上飯店 Buffet 與天然溫泉，剛好為 USJ 前一晚蓄電。</p></div>
+        <div class="day-summary">
+          <div class="summary-mini"><b>住宿：</b>LIBER HOTEL OSAKA，近櫻島站</div>
+          <div class="summary-mini"><b>交通主軸：</b>難波/心齋橋 → 西九條 → 櫻島</div>
+          <div class="summary-mini"><b>母女亮點：</b>鯨鯊、水母銀河、三麗鷗、飯店溫泉</div>
+        </div>
+      </div>
+      
+    <details class="timeline-card searchable" open>
+      <summary>
+        <span class="time">10:00</span>
+        <span class="summary-main"><b>退房＋移動到 LIBER HOTEL OSAKA</b><em>行李日，請選電梯多的路線</em></span>
+        <span class="chev">展開</span>
+      </summary>
+      <div class="card-content">
+        
+      <figure class="photo">
+        <img loading="lazy" src="https://hotel-liber.jp/wp/wp-content/themes/understrap-child_v2/library/img/index/concept-slider-img01.jpg" alt="退房＋移動到 LIBER HOTEL OSAKA" onerror="this.closest('figure').classList.add('noimg'); this.remove();" />
+        <figcaption>LIBER HOTEL OSAKA 官方照片</figcaption>
+      </figure>
+        <div class="copy">
+          <ul><li>Plan A 省錢：從難波搭阪神難波線到西九條，轉 JR 夢咲線到櫻島站。</li><li>Plan B 安心：若行李太多或媽媽覺得壓力大，直接請飯店協助叫計程車到 LIBER，省體力但費用較高。</li><li>LIBER HOTEL 官方資訊顯示，飯店在 JR 櫻島站旁，距離環球城站 1 站。</li><li>抵達後先寄放行李、確認大浴場規則與晚餐時間；USJ 前一晚請早點休息。</li></ul>
+          
+          <div class="button-row"><a class="btn " href="https://hotel-liber.jp/?wovn=en" target="_blank" rel="noopener">飯店官方</a><a class="btn map" href="https://www.google.com/maps/dir/?api=1&amp;origin=Hotel+Hillarys+Shinsaibashi&amp;destination=LIBER+HOTEL+OSAKA&amp;travelmode=transit" target="_blank" rel="noopener">前飯店→LIBER 路線</a></div>
+        </div>
+      </div>
+    </details>
+      
+    <details class="timeline-card searchable" open>
+      <summary>
+        <span class="time">12:00</span>
+        <span class="summary-main"><b>Universal CityWalk 輕午餐＋明日 USJ 補給</b><em>先熟悉 USJ 周邊，不進園也能踩點</em></span>
+        <span class="chev">展開</span>
+      </summary>
+      <div class="card-content">
+        
+      <figure class="photo">
+        <img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Universal_CityWalk_Osaka.JPG" alt="Universal CityWalk Osaka" onerror="this.closest('figure').classList.add('noimg'); this.remove();" />
+        <figcaption>Universal CityWalk Osaka 參考照片</figcaption>
+      </figure>
+        <div class="copy">
+          <div class="guide-box"><b>定位：</b>Universal CityWalk 在 JR 環球城站與 USJ 入口之間，今天先吃飯、買補給、認路；明天 USJ 就不會慌。</div>
+          <ul><li><b>12:00-12:10</b> 從 LIBER 走路或搭 JR 一站到 Universal City，先拍 CityWalk / USJ 入口方向照片，認得明天集合與回程方向。</li><li><b>12:10-12:45 午餐</b>：想簡單就吃 551 蓬萊、FUN FUN 飯糰、MOS、Sushiro；想吃大阪味就去 4F TAKOPA 章魚燒公園，買 1-2 盒共享即可。</li><li><b>13:00-13:30 補給</b>：LAWSON 買水、果凍飲、飯糰、喉糖；Matsumoto Kiyoshi 補防曬或濕紙巾；Universal Studios Store / Universal Style Store 可先看髮箍與哈利波特小物。</li><li><b>13:40</b> 回飯店休息或準備搭 Captain Line 去海遊館。今天不是 USJ 正日，不買大件、不排太久，留體力給明天。</li></ul>
+          <div class="store-grid">
+            <div class="store-mini"><b>最省力午餐</b>551 蓬萊豬肉包、FUN FUN 飯糰、MOS、Sushiro。等候超過 20 分鐘就換店。<span class="tagline">快速吃飽</span></div>
+            <div class="store-mini"><b>大阪味午餐</b>4F TAKOPA 有多間章魚燒名店，適合母女分食比較口味。<span class="tagline">章魚燒巡禮</span></div>
+            <div class="store-mini"><b>USJ 預習商店</b>Universal Studios Store、Universal Style Store、Little Osaka，可先看哈利波特、Minion、Mario 周邊。<span class="tagline">先看不重買</span></div>
+            <div class="store-mini"><b>明日補給</b>LAWSON、Matsumoto Kiyoshi：水、飯糰、果凍飲、防曬、濕紙巾、痠痛貼。<span class="tagline">安心必備</span></div>
+          </div>
+          <div class="button-row"><a class="btn map" href="https://www.google.com/maps/dir/?api=1&amp;origin=LIBER+HOTEL+OSAKA&amp;destination=Universal+CityWalk+Osaka&amp;travelmode=walking" target="_blank" rel="noopener">LIBER→CityWalk</a><a class="btn " href="https://ucw.jp/global/en/floormap/" target="_blank" rel="noopener">CityWalk 樓層圖</a><a class="btn food" href="https://ucw.jp/restaurant/takopa/" target="_blank" rel="noopener">TAKOPA 章魚燒</a><a class="btn " href="https://ucw.jp/shop/" target="_blank" rel="noopener">商店列表</a><a class="btn food" href="https://ucw.jp/restaurant/" target="_blank" rel="noopener">餐廳列表</a><a class="btn map" href="https://www.google.com/maps/search/?api=1&amp;query=LAWSON+Universal+CityWalk+Osaka" target="_blank" rel="noopener">LAWSON 地圖</a></div>
+        </div>
+      </div>
+    </details>
+      
+    <details class="timeline-card searchable" open>
+      <summary>
+        <span class="time">14:30</span>
+        <span class="summary-main"><b>船長線 Captain Line → 海遊館</b><em>從海面移動到「太平洋生命之旅」</em></span>
+        <span class="chev">展開</span>
+      </summary>
+      <div class="card-content">
+      <figure class="photo">
+        <img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Osaka_Kaiyukan09s3072.jpg" alt="海遊館外觀" onerror="this.closest('figure').classList.add('noimg'); this.remove();" />
+        <figcaption>海遊館外觀照片（Wikimedia Commons）</figcaption>
+      </figure>
+        <div class="copy">
+          <div class="guide-box"><b>為什麼要去：</b>USJ 前一天不要再塞購物與硬景點。海遊館是安靜、藍色、療癒的下午，讓女兒看鯨鯊、水母、海豹、企鵝，也讓媽媽有一段不用一直判斷方向的室內行程。</div>
+          <div class="focus-list">
+            <div class="focus-item"><b>抱著什麼心情</b>像走進海裡慢慢降速：不要急著拍完，每個大水槽停 3-5 分鐘，讓心情變安靜。</div>
+            <div class="focus-item"><b>只抓 5 個重點</b>① 太平洋大水槽鯨鯊 ② 水母區 ③ 海豹/海獅 ④ 企鵝 ⑤ 最後的紀念品區。</div>
+          </div>
+          <ul><li><b>館內動線：</b>海遊館通常是順著動線往下繞行；剛進大水槽人會多，不用急，後面還會看到不同角度。</li><li><b>拍照重點：</b>水母區請關閃光，手機點水母對焦；人物站側邊，拍成藍紫色剪影最夢幻。</li><li><b>親子話題：</b>可以請女兒選「今天最像自己的海洋生物」，比單純看魚更有記憶點。</li><li><b>交通心情：</b>從 Universal City 搭 Captain Line 像小船冒險；若風雨或船班不順，改搭電車，不要硬趕。</li></ul>
+          <div class="store-grid">
+            <div class="store-mini"><b>鯨鯊大水槽</b>不是只拍一張就走，建議看牠從遠方游過來，感受巨大又安靜的震撼。<span class="tagline">海遊館核心</span></div>
+            <div class="store-mini"><b>水母區</b>光線夢幻，適合女兒 IG 風照片；媽媽可提醒不要開閃光。<span class="tagline">最夢幻</span></div>
+            <div class="store-mini"><b>海豹/企鵝</b>可愛、有表情，適合把行程氣氛變輕鬆。<span class="tagline">療癒可愛</span></div>
+            <div class="store-mini"><b>出口商店</b>只買小吊飾、明信片、鯨鯊小物即可，大型玩偶會占行李。<span class="tagline">小紀念</span></div>
+          </div>
+          <div class="button-row"><a class="btn " href="https://www.kaiyukan.com/language/eng/" target="_blank" rel="noopener">海遊館官方</a><a class="btn map" href="https://www.google.com/maps/dir/?api=1&amp;origin=LIBER+HOTEL+OSAKA&amp;destination=Osaka+Aquarium+Kaiyukan&amp;travelmode=transit" target="_blank" rel="noopener">LIBER→海遊館路線</a><a class="btn map" href="https://www.google.com/maps/search/?api=1&amp;query=Captain+Line+Universal+City+Port" target="_blank" rel="noopener">Captain Line 港口照片</a></div>
+        </div>
+      </div>
+    </details>
+      
+    <details class="timeline-card searchable" open>
+      <summary>
+        <span class="time">17:30</span>
+        <span class="summary-main"><b>天保山 Marketplace / 三麗鷗小物</b><em>水族館後的休息站：吃大阪味、買可愛小物、找廁所</em></span>
+        <span class="chev">展開</span>
+      </summary>
+      <div class="card-content">
+      <figure class="photo">
+        <img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Tempozan%20Market%20Place%20in%20Osaka.jpg" alt="天保山 Marketplace" onerror="this.closest('figure').classList.add('noimg'); this.remove();" />
+        <figcaption>天保山 Marketplace 參考照片</figcaption>
+      </figure>
+        <div class="copy">
+          <div class="guide-box"><b>為什麼要去：</b>它就在海遊館旁邊，不是安排購物，而是「離開水族館後不要立刻趕車」的緩衝地帶。可上廁所、坐下吃點東西、看可愛小物，讓晚上回飯店泡湯前不慌張。</div>
+          <div class="focus-list">
+            <div class="focus-item"><b>抱著什麼心情</b>像水族館的延伸休息區：逛 30-60 分鐘就好，不用把每家店看完。</div>
+            <div class="focus-item"><b>只抓 4 個重點</b>① 三麗鷗/可愛小物 ② なにわ食いしんぼ横丁 ③ 海景餐廳或座位 ④ 廁所與置物櫃。</div>
+          </div>
+          <ul><li><b>商場特色：</b>大阪官方觀光資訊介紹天保山 Marketplace 為海遊館旁的大型商業設施，約有眾多餐飲、雜貨與大阪風格美食街，包含 1960 年代街景感的なにわ食いしんぼ横丁。</li><li><b>三麗鷗小物：</b>重點找庫洛米、大耳狗、布丁狗、Hello Kitty 類小吊飾、貼紙、髮夾、收納包；這些比大型玩偶更適合回國行李。</li><li><b>吃什麼：</b>如果晚餐會回 LIBER Buffet，這裡只吃章魚燒、甜點或飲料即可；若很餓，找餐廳坐下休息。</li><li><b>安全感：</b>商場有廁所、餐飲與店面，對第一次日本母女來說比在戶外臨時找地方更安心。</li></ul>
+          <div class="store-grid">
+            <div class="store-mini"><b>Sanrio / 可愛雜貨</b>讓女兒選一個「今天海遊館紀念」小物，建議吊飾或貼紙。<span class="tagline">小而可愛</span></div>
+            <div class="store-mini"><b>なにわ食いしんぼ横丁</b>復古大阪街景感，適合拍幾張街景照、吃章魚燒或大阪小吃。<span class="tagline">大阪味</span></div>
+            <div class="store-mini"><b>海景餐飲</b>如果天氣好，找靠窗或海邊方向座位，讓媽媽休息腳。<span class="tagline">休息優先</span></div>
+            <div class="store-mini"><b>置物櫃/廁所</b>大型行李不要帶來；小包太重可短時間使用商場置物櫃。<span class="tagline">安心補給</span></div>
+          </div>
+          <div class="button-row"><a class="btn " href="https://www.kaiyukan.com/thv/marketplace/" target="_blank" rel="noopener">Marketplace 官方</a><a class="btn map" href="https://www.google.com/maps/search/?api=1&amp;query=Tempozan+Marketplace+Sanrio" target="_blank" rel="noopener">三麗鷗/小物地圖搜尋</a><a class="btn map" href="https://www.google.com/maps/search/?api=1&amp;query=Naniwa+Kuishinbo+Yokocho" target="_blank" rel="noopener">なにわ食いしんぼ横丁</a></div>
+        </div>
+      </div>
+    </details>
+      
+    <details class="timeline-card searchable" open>
+      <summary>
+        <span class="time">19:00</span>
+        <span class="summary-main"><b>Dining BRICKSIDE Buffet＋天然溫泉</b><em>USJ 前一晚的體力補給站</em></span>
+        <span class="chev">展開</span>
+      </summary>
+      <div class="card-content">
+        
+      <figure class="photo">
+        <img loading="lazy" src="https://hotel-liber.jp/wp/wp-content/uploads/2026_earlysummer_buffet_800.jpg" alt="Dining BRICKSIDE Buffet＋天然溫泉" onerror="this.closest('figure').classList.add('noimg'); this.remove();" />
+        <figcaption>Dining BRICKSIDE 2026 初夏 Buffet 官方照片</figcaption>
+      </figure>
+        <div class="copy">
+          <ul><li>官方 2026 初夏晚餐 Buffet 期間為 2026/05/15-07/16，成人/國中以上參考價 ¥7,000，依方案與日期變動。</li><li>晚餐後回房休息 30 分鐘再泡湯；泡湯前後補水，避免太晚睡。</li><li>明天 USJ 要早到：今晚把 QR Code、衣服、雨衣、行動電源全部放好。</li></ul>
+          
+          <div class="button-row"><a class="btn " href="https://hotel-liber.jp/restaurant/brickside/?wovn=en" target="_blank" rel="noopener">BRICKSIDE 官方</a><a class="btn map" href="https://www.google.com/maps/search/?api=1&amp;query=LIBER+HOTEL+OSAKA" target="_blank" rel="noopener">飯店 Google Maps</a></div>
+        </div>
+      </div>
+    </details>
+    </section>
+
+    <section id="day4" class="day searchable">
+      <div class="day-head">
+        <div class="day-title"><div class="date">Day 4｜06/11（四）</div><h2>USJ：哈利波特與超級任天堂世界</h2><p>已買 Express Pass 8，所以今天策略是：早到、先拍哈利波特、照票面時間玩設施、任天堂世界 14:00 後集中攻略。</p></div>
+        <div class="day-summary">
+          <div class="summary-mini"><b>必帶：</b>入園券＋Express Pass 8 QR 截圖、行動電源、雨衣、夾鏈袋</div>
+          <div class="summary-mini"><b>快通固定時間：</b>10:30 Hippogriff、12:00 Villain-Con、14:00-15:30 Nintendo/Donkey Kong</div>
+          <div class="summary-mini"><b>最大修正：</b>奇諾比奧咖啡店改 15:40 後，不排 12:30</div>
+        </div>
+      </div>
+      <div class="grid two">
+        
+    
+    <article class="info-card searchable hp-zone">
+      <h3>哈利波特粉絲優先攻略</h3>
+      <div><ul><li><span class="pill">心情設定</span> 這一區不是只為了玩設施，是讓女兒覺得自己真的走進 Hogsmeade 與霍格華茲。請放慢 30 分鐘，讓她看屋頂、櫥窗、魔杖、音樂與城堡細節。</li><li><span class="pill">必拍順序</span> 入口石門 → Hogsmeade 雪屋頂 → 霍格華茲城堡遠景 → 奶油啤酒白鬍子 → 蜂蜜公爵糖果牆。</li><li><span class="pill">必玩</span> Harry Potter and the Forbidden Journey 是主設施；Flight of the Hippogriff 是比較溫和的戶外雲霄飛車。</li><li><span class="pill">可買</span> 巧克力蛙、柏蒂全口味豆、學院髮飾、明信片、互動魔杖；魔杖較貴，先講好預算。</li><li><span class="pill">媽媽安心</span> 禁忌之旅會晃、畫面沉浸；容易暈的人可先吃暈車藥或只逛城堡/商店，不硬撐。</li></ul></div>
+      <div class="button-row"><a class="btn " href="https://www.usj.co.jp/web/en/us/areas/the-wizarding-world-of-harry-potter" target="_blank" rel="noopener">哈利波特園區官方</a><a class="btn " href="https://www.usj.co.jp/web/en/us/attractions/harry-potter-and-the-forbidden-journey" target="_blank" rel="noopener">禁忌之旅官方</a><a class="btn " href="https://www.usj.co.jp/web/en/us/shopping/ollivanders" target="_blank" rel="noopener">Ollivanders 魔杖店</a><a class="btn food" href="https://www.usj.co.jp/web/en/us/restaurants/three-broomsticks" target="_blank" rel="noopener">三根掃帚/奶油啤酒</a></div>
+    </article>
+        
+    <article class="info-card searchable ">
+      <h3>USJ 小包清單</h3>
+      <div><ul><li>QR Code 截圖：入園券、Express Pass 8、Super Nintendo World 時段截圖。</li><li>防水：輕便雨衣、夾鏈袋、小毛巾，Jurassic Park 可能濕。</li><li>補給：水、果凍飲、薄外套、暈車藥、髮圈、濕紙巾。</li><li>穿搭：鮮豔色拍任天堂世界好看；哈利波特園區深色或學院色更有氛圍。</li></ul></div>
+      <div class="button-row"></div>
+    </article>
+      </div>
+      
+    <details class="timeline-card searchable" open>
+      <summary>
+        <span class="time">07:40</span>
+        <span class="summary-main"><b>從 LIBER 出發，08:00 左右到 USJ 門口</b><em>步行或 JR 1 站到環球城站，抓早到安心</em></span>
+        <span class="chev">展開</span>
+      </summary>
+      <div class="card-content">
+        
+      <figure class="photo">
+        <img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Universal%20Studios%20Japan%20entrance.jpg" alt="從 LIBER 出發，08:00 左右到 USJ 門口" onerror="this.closest('figure').classList.add('noimg'); this.remove();" />
+        <figcaption>日本環球影城入口照片（Wikimedia Commons）</figcaption>
+      </figure>
+        <div class="copy">
+          <ul><li>從 LIBER 可步行到園區，也可從櫻島搭 JR 夢咲線 1 站到環球城站；看當天天氣和腳力。</li><li>入園前先把 QR Code 亮度調高，媽媽與女兒各自截圖一份，避免一支手機沒電。</li><li>園區實際開園可能依日期調整，請以 USJ App 當天公告為準；早到可以降低排隊焦慮。</li><li>進門後先不要逛商店，先往哈利波特方向走，趁早拍人少的魔法世界。</li></ul>
+          
+          <div class="button-row"><a class="btn map" href="https://www.google.com/maps/dir/?api=1&amp;origin=LIBER+HOTEL+OSAKA&amp;destination=Universal+Studios+Japan&amp;travelmode=transit" target="_blank" rel="noopener">LIBER→USJ 路線</a><a class="btn " href="https://www.usj.co.jp/web/en/us/operation/attraction-closure" target="_blank" rel="noopener">USJ 設施休止官方</a></div>
+        </div>
+      </div>
+    </details>
+      
+    <details class="timeline-card searchable" open>
+      <summary>
+        <span class="time">08:20</span>
+        <span class="summary-main"><b>哈利波特魔法世界：Hogsmeade＋城堡＋禁忌之旅</b><em>女兒最愛，今天先把魔法感拍滿</em></span>
+        <span class="chev">展開</span>
+      </summary>
+      <div class="card-content">
+      <figure class="photo">
+        <img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Hogsmeade%20at%20Universal%20Studios%20Japan%201.jpg" alt="哈利波特魔法世界 Hogsmeade" onerror="this.closest('figure').classList.add('noimg'); this.remove();" />
+        <figcaption>Hogsmeade / 哈利波特園區照片（Wikimedia Commons）</figcaption>
+      </figure>
+        <div class="copy">
+          <div class="guide-box"><b>為什麼要去：</b>女兒喜歡哈利波特，這裡就是整趟旅程最能讓她「進入故事」的地方。不要只把它當遊樂設施，請把前 60-90 分鐘當成電影場景巡禮：看屋頂、聽音樂、逛櫥窗、喝奶油啤酒。</div>
+          <div class="focus-list">
+            <div class="focus-item"><b>抱著什麼心情</b>像收到霍格華茲入學通知：慢慢走、抬頭看、讓女兒帶路，媽媽負責拍照和掌控下一個快通時間。</div>
+            <div class="focus-item"><b>只抓 6 個重點</b>入口石門、Hogsmeade 街景、霍格華茲城堡、禁忌之旅、Ollivanders、奶油啤酒。</div>
+          </div>
+          <ul><li><b>Hogsmeade 街景：</b>雪屋頂、招牌、櫥窗是最有魔法感的背景；早上人少時先拍空景與母女照。</li><li><b>霍格華茲城堡：</b>遠景拍「人小城大」，近景拍城堡石牆；若陽光強，人物站陰影處比較不會瞇眼。</li><li><b>Forbidden Journey：</b>官方介紹為沉浸式魔法世界設施，影像與乘車動作很強；建議早上完成，避免後面疲累暈。</li><li><b>Ollivanders：</b>重點是「魔杖選擇巫師」的氛圍；若排隊短可進，若排很長就逛商店區看魔杖牆。</li><li><b>奶油啤酒：</b>當作儀式感飲料，拍白鬍子照；可兩人合喝一杯先試味道，不一定要人手一杯。</li></ul>
+          <div class="button-row"><a class="btn map" href="https://www.google.com/maps/search/?api=1&amp;query=The+Wizarding+World+of+Harry+Potter+USJ" target="_blank" rel="noopener">哈利波特區 Google Maps</a><a class="btn " href="https://www.usj.co.jp/web/en/us/attractions/harry-potter-and-the-forbidden-journey" target="_blank" rel="noopener">禁忌之旅官方</a><a class="btn " href="https://www.usj.co.jp/web/en/us/shopping/honeydukes" target="_blank" rel="noopener">蜂蜜公爵官方</a></div>
+        </div>
+      </div>
+    </details>
+      
+    <details class="timeline-card searchable" open>
+      <summary>
+        <span class="time">10:25</span>
+        <span class="summary-main"><b>Express Pass：Flight of the Hippogriff</b><em>票面時間 10:30-11:00，溫和版魔法雲霄飛車</em></span>
+        <span class="chev">展開</span>
+      </summary>
+      <div class="card-content">
+      <figure class="photo">
+        <img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Harry%20Potter%20and%20the%20Forbidden%20Journey%20USJ.JPG" alt="Flight of the Hippogriff / Hogwarts Castle" onerror="this.closest('figure').classList.add('noimg'); this.remove();" />
+        <figcaption>哈利波特城堡照片（Wikimedia Commons）</figcaption>
+      </figure>
+        <div class="copy">
+          <div class="guide-box"><b>為什麼要玩：</b>這是哈利波特區裡比較親子、比較短的戶外雲霄飛車。官方描述是跟著海格學習接近鷹馬，繞過南瓜田與海格小屋；它的重點是可愛魔法生物感，不是極限刺激。</div>
+          <ul><li><b>10:25 前到入口：</b>不要壓線，入口可能要找一下；直接把 Express Pass 畫面給工作人員看。</li><li><b>看點：</b>海格小屋、南瓜田、鷹馬 Buckbeak 的故事感，適合哈迷暖身。</li><li><b>刺激度：</b>比飛天翼龍溫和很多，但仍是雲霄飛車；容易暈的人上車前不要吃太飽。</li><li><b>結束後：</b>回 Hogsmeade 補拍蜂蜜公爵、貓頭鷹郵局、學院旗幟，或短暫坐下喝水。</li></ul>
+          <div class="button-row"><a class="btn " href="https://www.usj.co.jp/web/en/us/attractions/flight-of-the-hippogriff" target="_blank" rel="noopener">Hippogriff 官方</a><a class="btn map" href="https://www.google.com/maps/search/?api=1&amp;query=Flight+of+the+Hippogriff+USJ" target="_blank" rel="noopener">入口地圖照片</a></div>
+        </div>
+      </div>
+    </details>
+      
+    <details class="timeline-card searchable" open>
+      <summary>
+        <span class="time">11:45</span>
+        <span class="summary-main"><b>移動到 Minion Park</b><em>12:00-12:30 Villain-Con Minion Blast</em></span>
+        <span class="chev">展開</span>
+      </summary>
+      <div class="card-content">
+        
+      <figure class="photo">
+        <img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Universal%20Studios%20Japan%20entrance.jpg" alt="移動到 Minion Park" onerror="this.closest('figure').classList.add('noimg'); this.remove();" />
+        <figcaption>USJ 園區照片</figcaption>
+      </figure>
+        <div class="copy">
+          <ul><li>從哈利波特區移動到小小兵區需要時間，11:45 就開始走，途中先上廁所。</li><li>Illumination’s Villain-Con Minion Blast 是 Express Pass 指定時間，12:00-12:30 完成。</li><li>若媽媽或女兒容易暈，剛玩完後先坐一下，不要馬上衝下一段。</li></ul>
+          
+          <div class="button-row"><a class="btn map" href="https://www.google.com/maps/search/?api=1&amp;query=Illumination%E2%80%99s+Villain-Con+Minion+Blast+USJ" target="_blank" rel="noopener">Villain-Con Google Maps</a></div>
+        </div>
+      </div>
+    </details>
+      
+    <details class="timeline-card searchable" open>
+      <summary>
+        <span class="time">12:35</span>
+        <span class="summary-main"><b>午餐修正：先輕食，不排奇諾比奧</b><em>任天堂世界 14:00 才能進，12:30 無法直攻 Kinopio</em></span>
+        <span class="chev">展開</span>
+      </summary>
+      <div class="card-content">
+        
+      <figure class="photo">
+        <img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Kinopio%27s%20cafe%20exterior%20at%20Super%20Nintendo%20World%20%28Universal%20Studios%20Japan%29.png" alt="午餐修正：先輕食，不排奇諾比奧" onerror="this.closest('figure').classList.add('noimg'); this.remove();" />
+        <figcaption>奇諾比奧咖啡店外觀（Wikimedia Commons）</figcaption>
+      </figure>
+        <div class="copy">
+          <ul><li>12:30 奇諾比奧咖啡店與 14:00 任天堂世界入場衝突，因此這裡改成 12:35 先在園區外圍輕食。</li><li>建議選擇：小小兵附近點心、Studio Stars 類型餐廳、熱狗/炸雞/飯糰補能量。</li><li>不要吃太飽，14:00-15:30 是連續三個任天堂/Donkey Kong 設施時間。</li><li>奇諾比奧咖啡店改排 15:40 以後，當成晚午餐或下午茶。</li></ul>
+          <p class="note">重點：這是本版最大時間修正。</p>
+          <div class="button-row"><a class="btn food" href="https://www.google.com/maps/search/?api=1&amp;query=Kinopio+Cafe+USJ" target="_blank" rel="noopener">Kinopio Google Maps</a><a class="btn " href="https://www.usj.co.jp/web/en/us/areas/super-nintendo-world" target="_blank" rel="noopener">任天堂世界官方</a></div>
+        </div>
+      </div>
+    </details>
+      
+    <details class="timeline-card searchable" open>
+      <summary>
+        <span class="time">13:50</span>
+        <span class="summary-main"><b>Super Nintendo World 入口集合</b><em>從土管進入遊戲世界，先設施後拍照</em></span>
+        <span class="chev">展開</span>
+      </summary>
+      <div class="card-content">
+      <figure class="photo">
+        <img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Super%20Nintendo%20World%20%28Universal%20Studios%20Japan%29.png" alt="Super Nintendo World" onerror="this.closest('figure').classList.add('noimg'); this.remove();" />
+        <figcaption>Super Nintendo World 照片（Wikimedia Commons）</figcaption>
+      </figure>
+        <div class="copy">
+          <div class="guide-box"><b>為什麼要去：</b>這裡不是普通遊樂區，而是把瑪利歐遊戲變成立體世界。官方介紹包含 Mushroom Kingdom、Mario、Donkey Kong 等區域與互動體驗；進去後色彩很強、音樂很歡樂，會讓人立刻覺得「我進到遊戲裡了」。</div>
+          <div class="focus-list">
+            <div class="focus-item"><b>抱著什麼心情</b>像走進 Switch 遊戲：不要急著購物，先看整個世界的顏色、動線、城堡、問號磚。</div>
+            <div class="focus-item"><b>只抓 5 個重點</b>土管入口、Peach 城堡、庫巴城堡、Yoshi 視角、Donkey Kong 叢林入口。</div>
+          </div>
+          <ul><li><b>時間關鍵：</b>票面 Super Nintendo World 14:00-15:00 入場；13:40 先上廁所、補水，13:50 到入口最安心。</li><li><b>進區後規則：</b>不要被第一個拍照點拖住太久，14:00-15:30 是三個快通設施連續段，先玩再拍。</li><li><b>拍照穿搭：</b>紅、黃、藍、牛仔色很適合任天堂世界；手機相機亮度不要調太暗，背景色彩會更活。</li><li><b>Power-Up Band：</b>若女兒很想玩互動，買手環會更沉浸；若只想拍照和搭設施，可以先不買，把預算留給哈利波特。</li></ul>
+          <div class="button-row"><a class="btn " href="https://www.usj.co.jp/web/en/us/areas/super-nintendo-world" target="_blank" rel="noopener">任天堂世界官方</a><a class="btn " href="https://www.usj.co.jp/web/en/us/attractions/power-up-band-key-challenges" target="_blank" rel="noopener">Power-Up Band 互動</a><a class="btn map" href="https://www.google.com/maps/search/?api=1&amp;query=Super+Nintendo+World+Universal+Studios+Japan" target="_blank" rel="noopener">入口照片搜尋</a></div>
+        </div>
+      </div>
+    </details>
+      
+    <details class="timeline-card searchable" open>
+      <summary>
+        <span class="time">14:00</span>
+        <span class="summary-main"><b>Mario Kart → Yoshi → Mine Cart Madness</b><em>14:00-15:30 三段快通：遊戲、俯瞰、叢林刺激</em></span>
+        <span class="chev">展開</span>
+      </summary>
+      <div class="card-content">
+      <figure class="photo">
+        <img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Entrance%20to%20Donkey%20Kong%20Country.jpg" alt="Donkey Kong Country entrance" onerror="this.closest('figure').classList.add('noimg'); this.remove();" />
+        <figcaption>Donkey Kong Country 入口照片（Wikimedia Commons）</figcaption>
+      </figure>
+        <div class="copy">
+          <div class="guide-box"><b>為什麼要排這樣：</b>這段完全照快通票面走，14:00 Mario Kart、14:30 Yoshi、15:00 Mine Cart Madness。媽媽只要記住「庫巴城堡 → 耀西 → 大金剛」三個方向，不用臨時決定。</div>
+          <div class="store-grid">
+            <div class="store-mini"><b>14:00 Mario Kart: Koopa's Challenge</b>重點是進庫巴城堡、戴裝置、像在遊戲裡丟道具競賽；不是高速雲霄飛車，而是沉浸與互動。<span class="tagline">遊戲感最強</span></div>
+            <div class="store-mini"><b>14:30 Yoshi's Adventure</b>官方描述是騎耀西尋找蛋與 Captain Toad，視野可愛、節奏較慢，適合拍香菇王國全景。<span class="tagline">可愛放鬆</span></div>
+            <div class="store-mini"><b>15:00 Mine Cart Madness</b>大金剛叢林的礦車冒險，官方提到會有不可預測移動、濺水與跳越斷軌的刺激感。<span class="tagline">新區刺激</span></div>
+            <div class="store-mini"><b>如果延誤</b>直接問工作人員 Express Pass 怎麼處理；不要自己猜，也不要離開該區太遠。<span class="tagline">先問員工</span></div>
+          </div>
+          <ul><li><b>媽媽任務：</b>看時間、看入口、看女兒狀況；14:00-15:30 先不逛商店。</li><li><b>女兒任務：</b>每個設施結束後選一張最喜歡的照片或一個最想買的小物，15:40 後再決定。</li><li><b>暈眩提醒：</b>Mario Kart 和 Mine Cart Madness 都可能讓人累，設施中間記得補水、不要硬吃太多。</li></ul>
+          <div class="button-row"><a class="btn " href="https://www.usj.co.jp/web/en/us/attractions/mario-kart-koopas-challenge" target="_blank" rel="noopener">Mario Kart 官方</a><a class="btn " href="https://www.usj.co.jp/web/en/us/attractions/yoshis-adventure" target="_blank" rel="noopener">Yoshi 官方</a><a class="btn " href="https://www.usj.co.jp/web/en/us/attractions/donkey-kong-country-ride" target="_blank" rel="noopener">Mine Cart 官方</a><a class="btn map" href="https://www.google.com/maps/search/?api=1&amp;query=Donkey+Kong+Country+USJ" target="_blank" rel="noopener">Donkey Kong 地圖</a></div>
+        </div>
+      </div>
+    </details>
+      
+    <details class="timeline-card searchable" open>
+      <summary>
+        <span class="time">15:40</span>
+        <span class="summary-main"><b>Kinopio Café / 任天堂商店 / 拍照</b><em>把剛才的遊戲世界變成可愛下午茶</em></span>
+        <span class="chev">展開</span>
+      </summary>
+      <div class="card-content">
+      <figure class="photo">
+        <img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Kinopio%27s%20cafe%20exterior%20at%20Super%20Nintendo%20World%20%28Universal%20Studios%20Japan%29.png" alt="Kinopio Café exterior" onerror="this.closest('figure').classList.add('noimg'); this.remove();" />
+        <figcaption>Kinopio Café 外觀照片（Wikimedia Commons）</figcaption>
+      </figure>
+        <div class="copy">
+          <div class="guide-box"><b>為什麼這時候才排：</b>快通票面 14:00-15:30 是任天堂核心設施時間，12:30 根本還不能進任天堂世界。15:40 後才比較適合停下來吃、拍、買，節奏會舒服很多。</div>
+          <div class="focus-list">
+            <div class="focus-item"><b>抱著什麼心情</b>像遊戲破關後進補給站：吃可愛餐點、拍問號磚甜點、整理剛才的照片。</div>
+            <div class="focus-item"><b>只抓 4 個重點</b>Kinopio Café、問號磚/香菇餐點、1-Up Factory 商店、Donkey Kong 拍照點。</div>
+          </div>
+          <ul><li><b>餐廳策略：</b>先看是否需要整理券或排隊；等待超過 45 分鐘就改買小點，避免後面 Jurassic Park 和 Choice A 壓力太大。</li><li><b>拍照順序：</b>Peach 城堡入口 → 土管 → 問號磚 → Donkey Kong 入口 → 手環/互動畫面。</li><li><b>伴手禮：</b>任天堂商品容易失手，建議只買「小、輕、每天會用」的吊飾、髮圈、文具或鑰匙圈。</li><li><b>媽媽休息點：</b>如果女兒逛商店，媽媽可先找牆邊或出口附近等，不要在狹窄店內被人潮推著走。</li></ul>
+          <div class="button-row"><a class="btn food" href="https://www.google.com/maps/search/?api=1&amp;query=Kinopio+Cafe+Universal+Studios+Japan" target="_blank" rel="noopener">Kinopio Café 地圖</a><a class="btn food" href="https://www.usj.co.jp/web/en/us/restaurants/kinopios-cafe" target="_blank" rel="noopener">Kinopio Café 官方</a><a class="btn map" href="https://www.google.com/maps/search/?api=1&amp;query=1-Up+Factory+USJ" target="_blank" rel="noopener">1-Up Factory 搜尋</a></div>
+        </div>
+      </div>
+    </details>
+      
+    <details class="timeline-card searchable" open>
+      <summary>
+        <span class="time">16:50</span>
+        <span class="summary-main"><b>Jurassic Park - The Ride</b><em>可能濕身，先保護手機與戰利品</em></span>
+        <span class="chev">展開</span>
+      </summary>
+      <div class="card-content">
+        
+      <figure class="photo">
+        <img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Universal%20Studios%20Japan%20entrance.jpg" alt="Jurassic Park - The Ride" onerror="this.closest('figure').classList.add('noimg'); this.remove();" />
+        <figcaption>USJ 園區示意</figcaption>
+      </figure>
+        <div class="copy">
+          <ul><li>玩前把手機、票券、紙袋放夾鏈袋；鞋襪怕濕可先評估。</li><li>若當天溫度低或下雨，可以把這段改成商店或表演。</li><li>官方設施休止每段時間都可能調整，出發前與當天請看 USJ App。</li></ul>
+          
+          <div class="button-row"><a class="btn map" href="https://www.google.com/maps/search/?api=1&amp;query=Jurassic+Park+The+Ride+Universal+Studios+Japan" target="_blank" rel="noopener">Jurassic Park 地圖</a><a class="btn " href="https://www.usj.co.jp/web/en/us/operation/attraction-closure" target="_blank" rel="noopener">USJ 設施休止</a></div>
+        </div>
+      </div>
+    </details>
+      
+    <details class="timeline-card searchable" open>
+      <summary>
+        <span class="time">17:30</span>
+        <span class="summary-main"><b>Choice A：飛天翼龍 or 小小兵乘車遊</b><em>依刺激承受度二選一，不要硬撐</em></span>
+        <span class="chev">展開</span>
+      </summary>
+      <div class="card-content">
+        
+      <figure class="photo">
+        <img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Hogsmeade%20at%20Universal%20Studios%20Japan%201.jpg" alt="Choice A：飛天翼龍 or 小小兵乘車遊" onerror="this.closest('figure').classList.add('noimg'); this.remove();" />
+        <figcaption>傍晚可回哈利波特區拍照</figcaption>
+      </figure>
+        <div class="copy">
+          <ul><li><b>刺激派：</b>The Flying Dinosaur 飛天翼龍，非常刺激、趴姿飛行，適合喜歡雲霄飛車且不怕暈的人。</li><li><b>安心派：</b>Despicable Me: Minion Mayhem 是室內模擬型，親子可愛、比較符合第一次 USJ 的安全感。</li><li>因為中午已玩 Villain-Con，如果女兒想挑戰青春回憶可選飛天翼龍；媽媽不舒服就選小小兵或直接休息。</li><li>晚上 18:30 可回哈利波特區補拍黃昏城堡，比中午更有魔法感。</li></ul>
+          
+          <div class="button-row"><a class="btn map" href="https://www.google.com/maps/search/?api=1&amp;query=The+Flying+Dinosaur+USJ" target="_blank" rel="noopener">Flying Dinosaur 地圖</a><a class="btn map" href="https://www.google.com/maps/search/?api=1&amp;query=Despicable+Me+Minion+Mayhem+USJ" target="_blank" rel="noopener">Minion Mayhem 地圖</a></div>
+        </div>
+      </div>
+    </details>
+      
+    <details class="timeline-card searchable" open>
+      <summary>
+        <span class="time">19:30</span>
+        <span class="summary-main"><b>CityWalk 晚餐 / 回 LIBER 泡湯</b><em>今天不再加排，收心最重要</em></span>
+        <span class="chev">展開</span>
+      </summary>
+      <div class="card-content">
+        
+      <figure class="photo">
+        <img loading="lazy" src="https://hotel-liber.jp/wp/wp-content/themes/understrap-child_v2/library/img/index/concept-slider-img01.jpg" alt="CityWalk 晚餐 / 回 LIBER 泡湯" onerror="this.closest('figure').classList.add('noimg'); this.remove();" />
+        <figcaption>LIBER HOTEL OSAKA 官方照片</figcaption>
+      </figure>
+        <div class="copy">
+          <ul><li>若園區內晚餐太擠，可回 Universal CityWalk 或飯店附近吃。</li><li>回飯店後先整理戰利品與濕衣物，保留體力給 Day 5 Outlet 和機場。</li><li>晚上可以一起回顧今天最喜歡的 3 張照片，母女旅行的記憶會更完整。</li></ul>
+          
+          <div class="button-row"><a class="btn map" href="https://www.google.com/maps/dir/?api=1&amp;origin=Universal+Studios+Japan&amp;destination=LIBER+HOTEL+OSAKA&amp;travelmode=walking" target="_blank" rel="noopener">USJ→LIBER 路線</a><a class="btn food" href="https://www.google.com/maps/search/?api=1&amp;query=Universal+CityWalk+Osaka+restaurants" target="_blank" rel="noopener">CityWalk 餐廳</a></div>
+        </div>
+      </div>
+    </details>
+    </section>
+
+    
+    <section id="day5" class="day searchable">
+      <div class="day-head">
+        <div class="day-title"><div class="date">Day 5｜06/12（五）</div><h2>海景散步、漂亮咖啡與飛機觀景</h2><p>她們不太愛買東西，所以最後一天改成「好看、好休息、離機場近」。購物不是主角，主角是 Rinku Park 大理石海灘、海景午茶與關西機場 Sky View，把旅行用海風和飛機收尾。</p></div>
+        <div class="day-summary">
+          <div class="summary-mini"><b>航班：</b>Tigerair IT213 21:05 KIX → 23:00 TPE</div>
+          <div class="summary-mini"><b>交通主軸：</b>LIBER → Rinku Town → KIX T1</div>
+          <div class="summary-mini"><b>母女亮點：</b>大理石海灘、LOVE RINKu、海景午茶、飛機展望台</div>
+        </div>
+      </div>
+
+    <details class="timeline-card searchable" open>
+      <summary>
+        <span class="time">09:30</span>
+        <span class="summary-main"><b>收行李與退房</b><em>今天不是購物日，是行李安全日</em></span>
+        <span class="chev">展開</span>
+      </summary>
+      <div class="card-content">
+      <figure class="photo">
+        <img loading="lazy" src="https://hotel-liber.jp/wp/wp-content/themes/understrap-child_v2/library/img/index/concept-slider-img01.jpg" alt="LIBER HOTEL OSAKA" onerror="this.closest('figure').classList.add('noimg'); this.remove();" />
+        <figcaption>LIBER HOTEL OSAKA 官方照片</figcaption>
+      </figure>
+        <div class="copy">
+          <div class="guide-box"><b>為什麼這樣安排：</b>最後一天最怕的不是沒買到東西，而是行李太重、錯過電車、趕不上飛機。早上先把行李、護照、液體、行動電源整理好，下午才能安心看海。</div>
+          <ul><li><b>行李分工：</b>媽媽管護照、機票、信用卡；女兒管行動電源、手機、耳機、外套。</li><li><b>託運提醒：</b>機票顯示經濟艙未含免費託運；若有加購，請以訂單為準。液體、美妝噴霧、剪刀放託運；行動電源一定隨身。</li><li><b>寄放策略：</b>到 Rinku Town 先找車站、SEACLE 或 Outlet 置物櫃；若大行李放不下，改先到 KIX 寄物，再做機場內 Sky View 行程。</li><li><b>心情：</b>今天不要戰鬥式逛街，目標是舒服、乾淨、漂亮地結束旅行。</li></ul>
+          <div class="button-row"><a class="btn map" href="https://www.google.com/maps/dir/?api=1&amp;origin=LIBER+HOTEL+OSAKA&amp;destination=Rinku+Town+Station&amp;travelmode=transit" target="_blank" rel="noopener">LIBER→Rinku Town</a><a class="btn map" href="https://www.google.com/maps/search/?api=1&amp;query=Rinku+Town+Station+coin+locker" target="_blank" rel="noopener">Rinku 置物櫃搜尋</a></div>
+        </div>
+      </div>
+    </details>
+
+    <details class="timeline-card searchable" open>
+      <summary>
+        <span class="time">11:45</span>
+        <span class="summary-main"><b>Rinku Town：先找午餐與好看的休息點</b><em>漂亮店優先，不以購物為目的</em></span>
+        <span class="chev">展開</span>
+      </summary>
+      <div class="card-content">
+      <figure class="photo">
+        <img loading="lazy" src="https://www.premiumoutlets.co.jp/_assets_rev03/images/page/en/center/photo/img_photo-rinku.jpg" alt="Rinku Premium Outlets sea side" onerror="this.closest('figure').classList.add('noimg'); this.remove();" />
+        <figcaption>Rinku Premium Outlets 海景商場官方照片</figcaption>
+      </figure>
+        <div class="copy">
+          <div class="guide-box"><b>為什麼仍可到 Rinku：</b>不是為了買東西，而是因為它離機場近、有餐廳、有廁所、有海景、有置物櫃機會，對回國前的母女很安全。購物區只當作「漂亮、好坐、有冷氣」的休息基地。</div>
+          <div class="focus-list">
+            <div class="focus-item"><b>抱著什麼心情</b>當成回國前的海邊休息站：吃飽、喝水、看海，不逛也沒關係。</div>
+            <div class="focus-item"><b>只抓 3 個重點</b>海景座位、漂亮咖啡/餐廳、洗手間與行李整理。</div>
+          </div>
+          <ul><li><b>推薦 A：Rinku Dining / 海景美食廣場</b> Outlet 官方介紹海濱區 3F 美食廣場有整排落地窗，可看海景；適合不想排餐廳時用。</li><li><b>推薦 B：Snow Peak Cafe &amp; Dining</b> 店面與餐具帶露營風，漂亮但不太正式，適合母女午茶、咖哩、甜點或飲料。</li><li><b>推薦 C：Star Gate Hotel Kansai Airport</b> 若想要更安靜、有高度感，可搜尋飯店餐廳或咖啡；它直結 Rinku Town，重點是高樓海灣與機場景觀。</li><li><b>不買也可以：</b>這段只買水、點心或小伴手禮即可，不需要逛 Coach、Kate Spade；把精神留給下午看海與機場。</li></ul>
+          <div class="button-row"><a class="btn food" href="https://www.google.com/maps/search/?api=1&amp;query=Rinku+Dining+Rinku+Premium+Outlets" target="_blank" rel="noopener">Rinku Dining 海景餐飲</a><a class="btn food" href="https://www.google.com/maps/search/?api=1&amp;query=Snow+Peak+Cafe+Dining+Rinku" target="_blank" rel="noopener">Snow Peak Cafe</a><a class="btn food" href="https://www.google.com/maps/search/?api=1&amp;query=Star+Gate+Hotel+Kansai+Airport+restaurant" target="_blank" rel="noopener">Star Gate Hotel 餐廳</a></div>
+        </div>
+      </div>
+    </details>
+
+    <details class="timeline-card searchable" open>
+      <summary>
+        <span class="time">13:15</span>
+        <span class="summary-main"><b>Rinku Park / Marble Beach 大理石海灘</b><em>最後一天主景點：白石、海風、飛機、夕陽百選</em></span>
+        <span class="chev">展開</span>
+      </summary>
+      <div class="card-content">
+      <figure class="photo">
+        <img loading="lazy" src="https://visitizumisanojpn.com/wp-content/uploads/2024/11/01-untitled-2024-11-25T171843.263.webp" alt="Rinku Park Marble Beach" onerror="this.closest('figure').classList.add('noimg'); this.remove();" />
+        <figcaption>Rinku Park / Marble Beach 官方觀光照片</figcaption>
+      </figure>
+        <div class="copy">
+          <div class="guide-box"><b>為什麼要去：</b>Rinku Park 在關西機場對岸，官方觀光介紹可看海、飛機起降、明石海峽大橋與淡路島；Marble Beach 是白色石灘，也是日本夕陽百選之一。這比 Outlet 更符合「不愛買東西」的收尾。</div>
+          <div class="focus-list">
+            <div class="focus-item"><b>抱著什麼心情</b>像把旅行慢慢收進口袋：坐一下、看海、聽飛機聲、拍最後一組母女照。</div>
+            <div class="focus-item"><b>只抓 4 個重點</b>白色大理石海灘、木棧道、關空連絡橋、LOVE RINKu 裝置。</div>
+          </div>
+          <ul><li><b>拍照點 1：白石海灘</b>白石、藍海、長橋很乾淨，適合女兒拍背影或側臉；不要穿高跟鞋走石灘。</li><li><b>拍照點 2：木棧道</b>線條延伸感很漂亮，請站在木棧道中央，媽媽蹲低一點拍會顯腿長。</li><li><b>拍照點 3：LOVE RINKu</b>紅白裝置很適合母女合照，像旅行最後一張明信片。</li><li><b>安全提醒：</b>風大時帽子、票券、紙袋要收好；如果下雨或太熱，就縮短為 20-30 分鐘，改去 KIX Sky View。</li></ul>
+          <div class="button-row"><a class="btn " href="https://visitizumisanojpn.com/en/rinku-park-2/" target="_blank" rel="noopener">Rinku Park 觀光介紹</a><a class="btn map" href="https://www.google.com/maps/search/?api=1&amp;query=Rinku+Park+Marble+Beach" target="_blank" rel="noopener">Marble Beach 地圖</a><a class="btn map" href="https://www.google.com/maps/search/?api=1&amp;query=LOVE+RINKu" target="_blank" rel="noopener">LOVE RINKu 地圖</a></div>
+        </div>
+      </div>
+    </details>
+
+    <details class="timeline-card searchable" open>
+      <summary>
+        <span class="time">14:45</span>
+        <span class="summary-main"><b>二選一：Sky Terrace / SEACLE 摩天輪</b><em>看天氣與腳力，短短收尾即可</em></span>
+        <span class="chev">展開</span>
+      </summary>
+      <div class="card-content">
+      <figure class="photo">
+        <img loading="lazy" src="https://visitizumisanojpn.com/wp-content/uploads/2024/11/01-untitled-2024-11-25T172057.672.webp" alt="LOVE RINKu" onerror="this.closest('figure').classList.add('noimg'); this.remove();" />
+        <figcaption>LOVE RINKu 官方觀光照片</figcaption>
+      </figure>
+        <div class="copy">
+          <div class="guide-box"><b>為什麼是二選一：</b>最後一天不要再貪心。若天氣好，就在 Rinku Park 附近多拍一點；若太熱或下雨，就回室內找 Sky Terrace、美食廣場或 SEACLE。這段是緩衝，不是必完成。</div>
+          <ul><li><b>方案 A：Outlet Sky Terrace</b>不是逛街，是到天空露台拍海景與摩天輪同框；10-20 分鐘即可。</li><li><b>方案 B：SEACLE / Rinku no Hoshi 摩天輪</b>若女兒還想看景，可搭臨空之星摩天輪；它和 Rinku Town 站連接，交通簡單。</li><li><b>方案 C：SENNAN LONG PARK</b>景觀好、海邊漂亮，但距離較遠且有行李不方便；除非很想看大海且願意搭計程車，不建議當第一次日本最後一天主行程。</li><li><b>時間底線：</b>15:30 前往 KIX，因為 Sky View 17:00 關閉，不能太晚。</li></ul>
+          <div class="button-row"><a class="btn map" href="https://www.google.com/maps/search/?api=1&amp;query=Rinku+Premium+Outlets+Sky+Terrace" target="_blank" rel="noopener">Sky Terrace 搜尋</a><a class="btn map" href="https://www.google.com/maps/search/?api=1&amp;query=Rinku+no+Hoshi+Ferris+Wheel" target="_blank" rel="noopener">臨空之星摩天輪</a><a class="btn map" href="https://www.google.com/maps/search/?api=1&amp;query=SENNAN+LONG+PARK" target="_blank" rel="noopener">SENNAN LONG PARK 備案</a></div>
+        </div>
+      </div>
+    </details>
+
+    <details class="timeline-card searchable" open>
+      <summary>
+        <span class="time">15:40</span>
+        <span class="summary-main"><b>前往 KIX Observation Hall Sky View</b><em>飛機控與景觀控都會喜歡，17:00 前完成</em></span>
+        <span class="chev">展開</span>
+      </summary>
+      <div class="card-content">
+      <figure class="photo">
+        <img loading="lazy" src="https://www.kansai-airport.or.jp/sites/kix/files/styles/max_325x325/public/2025-11/access_map_skyview_en.png.webp" alt="KIX Sky View access map" onerror="this.closest('figure').classList.add('noimg'); this.remove();" />
+        <figcaption>KIX Sky View 官方接駁巴士位置圖</figcaption>
+      </figure>
+        <div class="copy">
+          <div class="guide-box"><b>為什麼要去：</b>這是最後一天最適合的「不買東西」景點：就在關西機場，能看跑道、飛機起降、機場模型與天空甲板。旅行最後看飛機，會很有「我們真的完成這趟旅行了」的感覺。</div>
+          <div class="focus-list">
+            <div class="focus-item"><b>抱著什麼心情</b>像旅行的片尾：看飛機起飛，把這幾天照片和回憶整理一下。</div>
+            <div class="focus-item"><b>只抓 3 個重點</b>免費接駁巴士、Sky Deck 看飛機、17:00 前回 Terminal 1。</div>
+          </div>
+          <ul><li><b>交通：</b>到 KIX Terminal 1 後，從 1F 第 1 號巴士站搭免費接駁車到 Observation Hall，官方寫車程約 6 分鐘。</li><li><b>時間：</b>官方標示 Observation Hall 10:00-17:00、Sky Museum 11:00-16:00；因此 16:00 左右抵達比較安心。</li><li><b>看點：</b>屋外 Sky Deck、飛機起降、跑道、機場模型、航空相關商店；不需要買，只要看。</li><li><b>回航廈：</b>17:00 前回 T1，接著找航空公司櫃檯、吃晚餐、整理手提行李，不壓線。</li></ul>
+          <div class="button-row"><a class="btn " href="https://www.kansai-airport.or.jp/en/shop-and-dine/skyview/access" target="_blank" rel="noopener">Sky View 官方交通</a><a class="btn map" href="https://www.google.com/maps/search/?api=1&amp;query=Kansai+Airport+Observation+Hall+Sky+View" target="_blank" rel="noopener">Sky View Google Maps</a><a class="btn map" href="https://www.google.com/maps/search/?api=1&amp;query=Kansai+Airport+Terminal+1+Bus+Stop+1+Sky+View" target="_blank" rel="noopener">T1 1號巴士站照片</a></div>
+        </div>
+      </div>
+    </details>
+
+    <details class="timeline-card searchable" open>
+      <summary>
+        <span class="time">17:30</span>
+        <span class="summary-main"><b>KIX Terminal 1：晚餐、報到、安檢</b><em>21:05 航班，18:30 前後進入回程模式</em></span>
+        <span class="chev">展開</span>
+      </summary>
+      <div class="card-content">
+      <figure class="photo">
+        <img loading="lazy" src="https://www.nankai.co.jp/sites/default/files/2023-03/Limited_Express_Rapita.png" alt="KIX transport reference" onerror="this.closest('figure').classList.add('noimg'); this.remove();" />
+        <figcaption>KIX / Rinku 交通示意</figcaption>
+      </figure>
+        <div class="copy">
+          <div class="guide-box"><b>回程心情：</b>不要把最後一刻變成奔跑。17:30 後就不要再安排景點，慢慢吃飯、確認護照、手機充電、行李重量與登機口。</div>
+          <ul><li><b>流程：</b>找 Tigerair Taiwan 櫃檯 → 秤重/託運 → 吃晚餐或買水 → 安檢/出境 → 找登機口。</li><li><b>手提確認：</b>護照、手機、錢包、行動電源、耳機、外套、藥品、眼鏡留身上。</li><li><b>託運確認：</b>液體、剪刀、噴霧、美妝瓶罐不要放隨身。</li><li><b>航班：</b>21:05 IT213 從關西機場 T1 起飛，23:00 抵達桃園 T1。</li></ul>
+          <div class="button-row"><a class="btn map" href="https://www.google.com/maps/dir/?api=1&amp;origin=Rinku+Town+Station&amp;destination=Kansai+International+Airport+Terminal+1&amp;travelmode=transit" target="_blank" rel="noopener">Rinku Town→KIX T1</a><a class="btn map" href="https://www.google.com/maps/search/?api=1&amp;query=Kansai+International+Airport+Terminal+1+Tigerair+Taiwan" target="_blank" rel="noopener">T1 櫃檯照片搜尋</a></div>
+        </div>
+      </div>
+    </details>
+    </section>
+
+    <section id="overview">
+      <div class="section-head">
+        <div><h2>備忘錄：安心總覽</h2><p>這些提醒移到每天行程之後；需要時再回來查，不會擋在 Day 1 前面。</p></div>
+      </div>
+      <div class="grid">
+        
+    
+    <article class="info-card searchable highlight">
+      <h3>行程安心重點</h3>
+      <div><ul><li><b>看懂每個點為什麼去：</b>新版在梅田夜景、海遊館、USJ、最後一天都加入「為什麼值得去／抱著什麼心情去／只抓哪些重點」。</li><li><b>USJ 第 4 天已依快速通關時段重排：</b>已買快速通關 8，票面 10:30 鷹馬、12:00 小小兵、14:00-15:30 任天堂世界核心設施，請以票面與 USJ App 為準。</li><li><b>梅田夜景更新：</b>HEP FIVE 是青春感紅色摩天輪；梅田藍天大廈是更成熟壯觀的 360 度夜景，兩者心情不同，不是重複景點。</li><li><b>Day 5 改成海景放鬆：</b>她們不太愛買東西，所以最後一天以 Rinku Park 大理石海灘、海景午茶、關西機場 Sky View 為主，Outlet 只當備案與休息點。</li></ul></div>
+      <div class="button-row"></div>
+    </article>
+        
+    <article class="info-card searchable ">
+      <h3>母女分工建議</h3>
+      <div><ul><li><b>媽媽掌握：</b>護照、現金、信用卡、交通卡、飯店地址、航班與 USJ QR Code 截圖。</li><li><b>女兒掌握：</b>Google Maps 收藏清單、拍照點、想買的角色商品、每日穿搭與行動電源。</li><li><b>每天出門前：</b>把「今日飯店地址」與「回飯店路線」截圖，手機沒網路也不會慌。</li><li><b>迷路時原則：</b>先停在寬處，不邊走邊查；直接問站務員「〇〇駅はどこですか？」。</li></ul></div>
+      <div class="button-row"></div>
+    </article>
+        
+    <article class="info-card searchable ">
+      <h3>必備 App / 檔案</h3>
+      <div><ul><li>Google Maps：每個景點都已附搜尋或路線按鈕。</li><li>USJ Official App：第 4 天請看即時開園、排隊、整理券、設施休止。</li><li>電子票截圖：機票、飯店、USJ 入園券、Express Pass 8 分開存在相簿。</li><li>翻譯工具：準備好「過敏」「不要香菜」「請問電梯在哪裡」等句子。</li></ul></div>
+      <div class="button-row"></div>
+    </article>
+      </div>
+    </section>
+
+    <section id="quick-check">
+      <div class="section-head"><div><h2>每日出門前 3 分鐘檢查</h2><p>每天出門前再打開這段確認一次。</p></div></div>
+      <div class="grid two">
+        
+    <article class="info-card searchable ">
+      <h3>每日包包</h3>
+      <div><ul><li>護照影本＋護照照片存在手機，正本放防盜小包。</li><li>交通 IC 卡或 Apple/Google Wallet、少量現金、信用卡。</li><li>行動電源、充電線、雨傘或輕便雨衣、濕紙巾、小毛巾。</li><li>USJ 當天多帶夾鏈袋、防水袋、暈車藥、髮圈。</li></ul></div>
+      <div class="button-row"></div>
+    </article>
+        
+    <article class="info-card searchable ">
+      <h3>好用日文</h3>
+      <div><div class="phrase"><code>すみません、駅員さんはどこですか？<br><span class="small">不好意思，站務員在哪裡？</span></code><button data-copy="すみません、駅員さんはどこですか？">複製</button></div><div class="phrase"><code>エレベーターはどこですか？<br><span class="small">請問電梯在哪裡？</span></code><button data-copy="エレベーターはどこですか？">複製</button></div><div class="phrase"><code>この電車は難波に行きますか？<br><span class="small">這班車會到難波嗎？</span></code><button data-copy="この電車は難波に行きますか？">複製</button></div><div class="phrase"><code>写真を撮っていただけますか？<br><span class="small">可以幫我們拍照嗎？</span></code><button data-copy="写真を撮っていただけますか？">複製</button></div></div>
+      <div class="button-row"></div>
+    </article>
+      </div>
+    </section>
+
+
+
+    <section id="transport">
+      <div class="section-head"><div><h2>交通與出入口相簿</h2><p>HTML 內照片作為識別參考；實際出入口與施工會變，請點 Google Maps 看最新街景、店面與站內照片。</p></div></div>
+      <div class="grid">
+        
+    <article class="info-card searchable ">
+      <h3>KIX → 南海 Rapi:t</h3>
+      <div>
+      <figure class="photo">
+        <img loading="lazy" src="https://www.nankai.co.jp/sites/default/files/2022-06/mv_rapit_pc.jpg" alt="南海 Rapi:t" onerror="this.closest('figure').classList.add('noimg'); this.remove();" />
+        <figcaption>南海 Rapi:t 參考照片</figcaption>
+      </figure><ul><li>KIX T1 出關後往「Railways / 鉄道」走。</li><li>找 Nankai / 南海電鐵櫃檯或售票機。</li><li>Rapi:t 為指定席，行李空間明顯，第一次搭較安心。</li></ul></div>
+      <div class="button-row"><a class="btn map" href="https://www.google.com/maps/search/?api=1&amp;query=Kansai+Airport+Station+Nankai+ticket+gate" target="_blank" rel="noopener">KIX 南海站照片</a><a class="btn " href="https://www.nankai.co.jp/en_railway/traffic/express/rapit.html" target="_blank" rel="noopener">Rapi:t 官方</a></div>
+    </article>
+        
+    <article class="info-card searchable ">
+      <h3>難波 → 心齋橋 6 號出口 → 飯店</h3>
+      <div>
+      <figure class="photo">
+        <img loading="lazy" src="https://hotel-hillarys.com/shinsaibashi/images/img_01.jpg" alt="Hotel Hillarys Shinsaibashi" onerror="this.closest('figure').classList.add('noimg'); this.remove();" />
+        <figcaption>飯店官方照片</figcaption>
+      </figure><ul><li>從南海難波轉大阪 Metro 御堂筋線。</li><li>心齋橋站優先找電梯；飯店官方寫 6 號出口步行約 3 分鐘。</li><li>帶行李時寧可多走電梯，不硬扛樓梯。</li></ul></div>
+      <div class="button-row"><a class="btn map" href="https://www.google.com/maps/search/?api=1&amp;query=Shinsaibashi+Station+Exit+6" target="_blank" rel="noopener">心齋橋站 6 號出口照片</a><a class="btn " href="https://hotel-hillarys.com/shinsaibashi/" target="_blank" rel="noopener">飯店官方</a></div>
+    </article>
+        
+    <article class="info-card searchable ">
+      <h3>心齋橋 / 道頓堀步行</h3>
+      <div>
+      <figure class="photo">
+        <img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Glico%20Man%20sign%2C%20Dotonbori.JPG" alt="道頓堀固力果" onerror="this.closest('figure').classList.add('noimg'); this.remove();" />
+        <figcaption>固力果看板照片</figcaption>
+      </figure><ul><li>晚上人潮多，約好集合點：固力果橋旁或指定便利商店。</li><li>拍照不要站在馬路或橋中央阻擋人流。</li><li>回飯店路線先截圖，夜間不臨時亂繞。</li></ul></div>
+      <div class="button-row"><a class="btn map" href="https://www.google.com/maps/dir/?api=1&amp;origin=Shinsaibashi+PARCO&amp;destination=Dotonbori+Glico+Sign&amp;travelmode=walking" target="_blank" rel="noopener">心齋橋→固力果</a></div>
+    </article>
+        
+    <article class="info-card searchable ">
+      <h3>森之宮 → 大阪城</h3>
+      <div>
+      <figure class="photo">
+        <img loading="lazy" src="https://www.osakacastle.net/img/top/keyvisual_bg_01.jpg" alt="大阪城" onerror="this.closest('figure').classList.add('noimg'); this.remove();" />
+        <figcaption>大阪城官方照片</figcaption>
+      </figure><ul><li>森之宮站出來公園路線較寬，適合拍照。</li><li>夏天先買水，城內城外走路距離比想像長。</li><li>如果下雨，天守閣入館或 JO-TERRACE 休息比例提高。</li></ul></div>
+      <div class="button-row"><a class="btn map" href="https://www.google.com/maps/dir/?api=1&amp;origin=Morinomiya+Station&amp;destination=Osaka+Castle+Museum&amp;travelmode=walking" target="_blank" rel="noopener">森之宮站→大阪城</a></div>
+    </article>
+        
+    <article class="info-card searchable ">
+      <h3>梅田：JR 大阪 / 大丸 / HEP / 空中庭園</h3>
+      <div>
+      <figure class="photo">
+        <img loading="lazy" src="https://www.hepfive.jp/common/img/ferriswheel/photo_list01.jpg" alt="HEP FIVE" onerror="this.closest('figure').classList.add('noimg'); this.remove();" />
+        <figcaption>HEP FIVE 官方照片</figcaption>
+      </figure><ul><li>梅田地下街很大，目的地請直接輸入店名。</li><li>Daimaru Umeda 13F = Nintendo OSAKA / Pokémon Center。</li><li>Grand Front Osaka 南館 4F = Arena Shop Osaka，可補買 Arena 泳裝。</li><li>HEP FIVE 到空中庭園步行約 15-20 分鐘，腳痠就搭車。</li></ul></div>
+      <div class="button-row"><a class="btn map" href="https://www.google.com/maps/dir/?api=1&amp;origin=Osaka+Station&amp;destination=Daimaru+Umeda+13F&amp;travelmode=walking" target="_blank" rel="noopener">JR大阪→大丸13F</a><a class="btn map" href="https://www.google.com/maps/dir/?api=1&amp;origin=HEP+FIVE&amp;destination=Umeda+Sky+Building&amp;travelmode=walking" target="_blank" rel="noopener">HEP→空中庭園</a><a class="btn map" href="https://www.google.com/maps/search/?api=1&amp;query=arena+Shop+Osaka+Grand+Front+Osaka+South+Building+4F" target="_blank" rel="noopener">Arena Shop Osaka</a></div>
+    </article>
+        
+    <article class="info-card searchable ">
+      <h3>櫻島 / LIBER / USJ</h3>
+      <div>
+      <figure class="photo">
+        <img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Universal%20Studios%20Japan%20entrance.jpg" alt="USJ entrance" onerror="this.closest('figure').classList.add('noimg'); this.remove();" />
+        <figcaption>USJ 入口照片</figcaption>
+      </figure><ul><li>LIBER 在櫻島站旁，到環球城站 1 站。</li><li>USJ 當天可步行或 JR 一站，依天氣與腳力選。</li><li>早上先拍入園口，晚上回飯店不要落單。</li></ul></div>
+      <div class="button-row"><a class="btn map" href="https://www.google.com/maps/dir/?api=1&amp;origin=LIBER+HOTEL+OSAKA&amp;destination=Universal+Studios+Japan&amp;travelmode=walking" target="_blank" rel="noopener">LIBER→USJ</a></div>
+    </article>
+        
+    <article class="info-card searchable ">
+      <h3>Captain Line / 海遊館</h3>
+      <div>
+      <figure class="photo">
+        <img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Osaka_Kaiyukan09s3072.jpg" alt="Kaiyukan" onerror="this.closest('figure').classList.add('noimg'); this.remove();" />
+        <figcaption>海遊館照片</figcaption>
+      </figure><ul><li>船班受天候影響，出發前確認。</li><li>海遊館館內光線暗，跟孩子約好不要跑太遠。</li><li>Tempozan Marketplace 是很好的休息和找廁所點。</li></ul></div>
+      <div class="button-row"><a class="btn map" href="https://www.google.com/maps/search/?api=1&amp;query=Captain+Line+Universal+City+Port" target="_blank" rel="noopener">Captain Line 港口</a><a class="btn map" href="https://www.google.com/maps/search/?api=1&amp;query=Osaka+Aquarium+Kaiyukan" target="_blank" rel="noopener">海遊館</a></div>
+    </article>
+        
+    <article class="info-card searchable ">
+      <h3>任天堂世界 / 哈利波特區</h3>
+      <div>
+      <figure class="photo">
+        <img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Hogsmeade%20at%20Universal%20Studios%20Japan%201.jpg" alt="Hogsmeade" onerror="this.closest('figure').classList.add('noimg'); this.remove();" />
+        <figcaption>哈利波特園區照片</figcaption>
+      </figure><ul><li>哈利波特早上拍空景，任天堂 14:00 後依快通順序玩。</li><li>USJ 園內地圖以官方 App 為準。</li><li>若迷路，直接問工作人員，把 Express Pass 畫面給他看。</li></ul></div>
+      <div class="button-row"><a class="btn map" href="https://www.google.com/maps/search/?api=1&amp;query=The+Wizarding+World+of+Harry+Potter+USJ" target="_blank" rel="noopener">哈利波特區</a><a class="btn map" href="https://www.google.com/maps/search/?api=1&amp;query=Super+Nintendo+World+USJ" target="_blank" rel="noopener">任天堂世界</a></div>
+    </article>
+        
+    
+
+    <article class="info-card searchable ">
+      <h3>心齋橋 BIGSTEP 3F：SPORTS ZYUEN / Arena 泳裝</h3>
+      <div>
+      <figure class="photo">
+        <img loading="lazy" src="https://big-step.co.jp/storage/2022/06/3804c50a6cc71bd8e6892a4a2d5adeed496df007.jpg" alt="SPORTS ZYUEN 心齋橋 BIGSTEP 店面" onerror="this.closest('figure').classList.add('noimg'); this.remove();" />
+        <figcaption>SPORTS ZYUEN 心齋橋 BIGSTEP 店面照片</figcaption>
+      </figure><ul><li>飯店寄放行李後可步行到 BIGSTEP，搭電梯上 3F。</li><li>目標很明確：Arena 女款泳裝、尺寸、泳帽、蛙鏡、防水袋。</li><li>如果找不到尺寸，請拍下型號，Day 2 改去 Arena Shop Osaka。</li></ul></div>
+      <div class="button-row"><a class="btn " href="https://z-b.co.jp/en/shinsaibashi.html" target="_blank" rel="noopener">SPORTS ZYUEN 官方</a><a class="btn " href="https://big-step.co.jp/shop/detail/14" target="_blank" rel="noopener">BIGSTEP 店鋪頁</a><a class="btn map" href="https://www.google.com/maps/search/?api=1&amp;query=SPORTS+ZYUEN+Shinsaibashi+BIGSTEP" target="_blank" rel="noopener">店面照片 / 地圖</a></div>
+    </article>
+        
+    <article class="info-card searchable ">
+      <h3>Rinku Town / Rinku Park / KIX Sky View</h3>
+      <div>
+      <figure class="photo">
+        <img loading="lazy" src="https://visitizumisanojpn.com/wp-content/uploads/2024/11/01-untitled-2024-11-25T171843.263.webp" alt="Rinku Park Marble Beach" onerror="this.closest('figure').classList.add('noimg'); this.remove();" />
+        <figcaption>Rinku Park 大理石海灘官方觀光照片</figcaption>
+      </figure><ul><li>最後一天主軸改為海景，不以 Outlet 購物為主。</li><li>Rinku Park 從 Rinku Town 站步行可達，先寄放行李再去海邊。</li><li>KIX Sky View 需要從 T1 1F 第 1 號巴士站搭免費接駁，17:00 前完成。</li></ul></div>
+      <div class="button-row"><a class="btn map" href="https://www.google.com/maps/search/?api=1&amp;query=Rinku+Town+Station" target="_blank" rel="noopener">Rinku Town 站</a><a class="btn map" href="https://www.google.com/maps/search/?api=1&amp;query=Rinku+Park+Marble+Beach" target="_blank" rel="noopener">Rinku Park / Marble Beach</a><a class="btn " href="https://www.kansai-airport.or.jp/en/shop-and-dine/skyview/access" target="_blank" rel="noopener">KIX Sky View 官方交通</a><a class="btn map" href="https://www.google.com/maps/search/?api=1&amp;query=Kansai+Airport+Observation+Hall+Sky+View" target="_blank" rel="noopener">Sky View 地圖</a></div>
+    </article>
+      </div>
+    </section>
+
+    
+    <section id="sources">
+      <div class="section-head"><div><h2>官方資訊與照片來源備忘</h2><p>票價、營業時間、設施休止會變動；出發前一週與前一天請重新點官方連結確認。</p></div></div>
+      <div class="info-card source-list">
+        <p><b>主要官方資訊：</b>南海 Rapi:t、心齋橋筋商店街、心齋橋 PARCO / 大丸梅田 13F、SPORTS ZYUEN 心齋橋 BIGSTEP、arena 官方店鋪表、Grand Front Osaka arena、Osaka Castle Museum、HEP FIVE、Umeda Sky Building、Universal CityWalk Osaka、海遊館、天保山 Marketplace、LIBER HOTEL OSAKA / Dining BRICKSIDE、Rinku Park、KIX Observation Hall Sky View、USJ 官方頁面。</p>
+        <p><b>這版新增重點：</b>梅田段加入 HEP FIVE、空中庭園、但馬屋各自「為什麼去」；海遊館與天保山加入看點心情；USJ 加入哈利波特與任天堂世界逐點特色；Day 5 改為海景與機場展望台主軸，Outlet 只作休息備案；新增 Arena 泳裝採買任務，分成 Day 1 心齋橋 SPORTS ZYUEN 與 Day 2 梅田 Arena Shop Osaka 兩個選擇。</p>
+        <p><b>照片：</b>部分使用官方網站公開圖片作為景點識別；部分使用 Wikimedia Commons / Special:FilePath、Hot Pepper 或官方觀光圖片。若某張照片無法顯示，請點該卡片的 Google Maps 或官方頁查看最新照片。</p>
+        <p><b>使用提醒：</b>本 HTML 是旅行查詢手冊，不取代官方公告。USJ 設施時間請以票面、USJ App 與現場工作人員為準。</p>
+      </div>
+    </section>
+  </main>
+  <button class="top" onclick="location.hash='top'">↑</button>
+  <script>
+    const q = document.getElementById('q');
+    q.addEventListener('input', () => {
+      const s = q.value.trim().toLowerCase();
+      document.querySelectorAll('.searchable').forEach(el => {
+        el.classList.toggle('hidden', s && !el.innerText.toLowerCase().includes(s));
+      });
+    });
+    let allOpen = true;
+    const openAllBtn = document.getElementById('openAll');
+    openAllBtn.addEventListener('click', () => {
+      allOpen = !allOpen;
+      document.querySelectorAll('details.timeline-card').forEach(d => d.open = allOpen);
+      openAllBtn.textContent = allOpen ? '全部收合' : '全部展開';
+    });
+    document.querySelectorAll('[data-copy]').forEach(btn => {
+      btn.addEventListener('click', async () => {
+        try { await navigator.clipboard.writeText(btn.dataset.copy); btn.textContent='已複製'; setTimeout(()=>btn.textContent='複製',1200); }
+        catch(e) { alert(btn.dataset.copy); }
+      });
+    });
+  </script>
+</body>
+</html>
